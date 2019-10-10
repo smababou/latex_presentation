@@ -1,0 +1,769 @@
+\section{Einführung in die Programmiersprache julia}
+\begin{frame}
+\frametitle{Überblick}
+% Für Bilder Argument T benutzen:
+    \begin{columns}[T]
+        \begin{column}{0.65\textwidth}
+            \begin{itemize}[<+->]
+\item julia ist eine höhere Programmiersprache, die seit 2009 entwickelt wird
+\item Hauptaugenmerk liegt auf dem numerischen und wissenschaftlichen Rechnen
+\item Einfache Syntax
+\item Hohe Ausführungsgeschwindigkeit
+\item Einbindung von Python und R ist möglich
+\item open source (MIT-Lizenz)
+\item Download und Dokumentation: https://julialang.org/
+\end{itemize}
+
+        \end{column}
+        \begin{column}{0.32\textwidth}
+            \includegraphics[width=\textwidth]{images/logo-julia.png}
+        \end{column}
+    \end{columns}
+    
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Installation von julia}
+\begin{itemize}
+\item Unter https://julialang.org/downloads/ die passende Datei herunterladen und installieren
+\pause
+\item Nach der Installation kann julia über die REPL (read-evaluate-print-loop) verwendet werden
+\pause
+\item Die REPL ist für das Einüben und Ausprobieren gut geeignet
+\pause
+\item Für größere Projekte sollte jedoch eine IDE (wie etwa Juno) oder das Jupyter Notebook verwendet werden
+\pause
+\item Über die REPL die folgenden Befehle ausführen um Jupyter Notebook zu installieren\footnote{Siehe https://github.com/JuliaLang/IJulia.jl}
+\begin{verbatim}
+julia> using Pkg
+julia> Pkg.add("IJulia")
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Problemklassen und Einzelprobleme}
+\begin{block}{Problemklasse}
+Eine \textit{Problemklasse} ist eine Sammlung gleichartiger Probleme, wobei diese nicht konkret formuliert sind, sondern in ihrer gemeinsamen, allgemeinen Form dargestellt sind. In der Regel kann eine Klasse über eine Funktion $f:I \rightarrow O$ repräsentiert werden, mit $I$ als Menge der Eingabe- und $O$ als Menge der Ausgabewerte.
+\end{block}
+Beispiele:\pause
+\begin{itemize}
+\item Finden eines kürzesten Weges zwischen zwei Orten\pause
+\item Ermittlung möglichst ähnlicher Kundengruppen eines Unternehmens\pause
+\item Erkennung von Objekten in digitalen Bilddateien\pause
+\item Zuordnung von Aufgaben zu Bearbeitern\pause
+\item Ermittlung der optimalen Auslagerstrategie für ein Lager
+\end{itemize}
+\end{frame}
+\begin{frame}
+\begin{block}{Einzelproblem}
+Ein \textit{Einzelproblem} ist eine konkrete Instanz einer Problemklasse, d.h. es wurden alle freie Parameter der Problemklasse gewählt.
+\end{block}
+Beispiele:\pause
+\begin{itemize}
+\item Finden des kürzesten Weges zwischen der Mensa und dem HG I (bezüglich der euklidischen Norm)\pause
+\item Ermittlung der ähnlichen Käufergruppen des Onlineshops www.irgendeinshop.de (bezüglich eines konkreten Ähnlichkeitsmaß)\pause
+\item Unterscheidung von korrekt und nicht-korrekt verpackten Paketen auf einer Förderstrecke mittels einer festinstallierten Kamera\pause
+\item Zuordnung der Mitarbeiter Meier, Müller und Schmidt auf die drei anstehenden Liefertouren X,Y und Z\pause
+\item Ermittlung der Auslagerstrategie für das Lager der XYZ GmbH in Dortmund\pause
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Algorithmus}
+\begin{block}{Algorithmus}
+Ein \textit{Algorithmus} ist eine detaillierte und explizite Vorschrift zur schrittweisen Lösung eines Einzelproblems (einer definierten Problemklasse) durch eine Abfolge bekannter Befehle/Operationen.
+\end{block}
+Beispiele:\pause
+\begin{itemize}
+\item Dijkstra-Algorithmus (Ermittlung eines kürzesten Pfades zwischen einem Start- und Endknoten in einem Graphen)\pause
+\item Euklidischer Algorithmus (Berechnung des ggT zweier natürlicher Zahlen)\pause
+\item Quicksort (Algorithmus zur Sortierung von Werten einer Liste)
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Wichtige Funktionen}
+\begin{itemize}[<+->]
+\item Über den Befehl \verb+?+ wird der Hilfemodus aufgerufen, über \verb+]?+ die Package-Hilfe
+\item In den normalen Modus wechseln (etwa aus dem Hilfemodus heraus): [Backspace] oder eine leere Linie
+\item Alle Stellen sehen wo \verb+func+ definiert ist: \verb+apropos("func")+
+\item Ausführung abbrechen: [STRG] + [C]
+\item Bildschirm leeren: [STRG]+[L]
+\item Julia Programm ausführen: \verb+include("filname.jl")+
+\item Beenden: \verb+exit()+ oder [STRG]+[D]
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\begin{itemize}[<+->] 
+\item Einzeilige Kommentare werden über \verb+#+ begonnen
+\item Mehrzeilige Kommentare werden mit \verb+#=+ und mit \verb+=#+ beendet
+\item Beispiel:
+\begin{verbatim}
+julia> # Ein Kommentar
+julia> #= Dieser Kommentar
+julia> geht über drei Zeilen. Durch "?" gelangt man in den
+julia> Hilfemodus wo etwa "pi" gesucht werden kann =#
+help?> pi
+\end{verbatim}
+\item Die Ausgabe kann über \verb+;+ unterdrückt werden
+\item Der letzte Wert wird in der Variable \verb+ans+ gespeichert
+\begin{verbatim}
+julia> 2+2*2
+6
+julia> ans
+6
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Variablen}
+\begin{itemize}[<+->] 
+\item Eine Variable in julia ist ein Name mit einem assoziierten Wert
+\item In vielen Programmiersprachen, wie etwa Java, muss der Datentyp einer Variable bei der Deklaration explizit angegeben werden, z.B.:\\
+\begin{verbatim}
+java> int x = 5;
+\end{verbatim}
+\item In julia wird eine Typenangabe nicht benötigt:
+\begin{verbatim}
+julia> x = 5;                       # Die Zuweisung erfolgt über =
+\end{verbatim}
+\item Insbesondere kann einer Variable auch ein Wert eines anderen Datentypes zugewiesen werden:
+\begin{verbatim}
+julia> y = 5                        # Hier ist y ein Integer
+julia> y = "Ich bin ein String"     # Hier ist y ein String
+\end{verbatim}
+julia erkennt den Datentypen selbstständig.
+\item Der Typ einer Variablen \verb+a+ kann mit dem Befehl \verb+typeof(a)+ ermittelt werden.
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Datentypen I}
+\begin{itemize}[<+->] 
+\item \textit{Integer}: Ganze und natürliche Zahlen mit verschiedenen Wertebereichen sind möglich, etwa \verb+uint64+ für nicht-negative Zahlen und \verb+int64+ für ganze Zahlen in einer 64bit Darstellung\\
+Syntax: \begin{verbatim}julia> n = 5\end{verbatim}
+\item \textit{Float}: Gleitkommazahlen mit verschiedenen Wertebereichen bzw. Genauigkeiten, etwa \verb+Float64+
+Syntax: \begin{verbatim}
+julia> x = 5.0         # 5.0
+julia> y = .7          # 0.7
+julia> z = 2e-3        # 0.002 = 2*10^(-3)
+\end{verbatim}
+\item Komplexe und rationale Zahlen sind möglich, werden in dieser Veranstaltung aber nicht weiter benötigt\\ Syntax:
+\begin{verbatim}
+julia> q = 1//4        # 1/4 als Bruch
+julia> j = 1+4im       # 1+4i
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Datentypen II}
+\begin{itemize}[<+->] 
+\item \textit{Bool}: Wahrheitswerte \textit{wahr} und \textit{falsch}\\Syntax:
+\begin{verbatim}
+julia> a = true        # wahr   (1)
+julia> b = false       # falsch (0)
+\end{verbatim}
+\item \textit{Char}: einzelne Zeichen in einer 32bit Darstellung\\ Zeichen werden durch einfache Anführungszeichen gekennzeichnet \\ Syntax:
+\begin{verbatim}
+julia> b1 = 'a'        # a (klein)
+julia> b2 = 'X'        # X (groß)
+julia> b3 = '$'        # das Dollarsymbol $
+\end{verbatim}
+\item \textit{String}: Zeichenketten beliebiger Länge\\
+Strings werden durch doppelte Anführungszeichen gekennzeichnet; Sollen Anführungszeichen enthalten sein, so wird dies durch 3 doppelte Anführungszeichen gekennzeichnet\\Syntax:
+\begin{verbatim}
+julia> s1 = "Hi"                     # "Hi"
+julia> s2 = """Oben steht "Hi"!"""   # "Oben steht \"Hi\"!"
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Einfache Funktionen}
+\begin{tabular}{|l|c|c|}
+\hline
+ 							& Befehl 		& Bedeutung\\
+\hline 
+mathematische Operationen 	& +			 	& Addition \\
+							& \verb+-+ 		& Subtraktion \\
+							& \verb+/+ 		& Division \\
+							& \verb+*+ 		& Multiplikation \\
+							& \verb+%+ 		& Modulo \\
+							& \verb+^+ 		& Potenz \\
+\hline
+logische Operationen		& \verb+&&+		& logisches UND \\
+							& \verb+||+		& logisches ODER \\
+							& \verb+!+		& logisches NICHT \\
+Vergleiche					& \verb+==+		& Gleich \\
+							& \verb+<+ (\verb+<=+)		& Kleiner (Kleiner oder Gleich) \\	
+							& \verb+>+ (\verb+>=+)		& Größer (Größer oder Gleich) \\
+							& \verb+!=+ 	& Ungleich\\							
+\hline
+\end{tabular} 
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Datentypen III}
+\begin{itemize}[<+->]
+\item \textit{Array}: Ein Array ist eine geordnete Sammlung von Objekten in einem ein- oder mehrdimensionalen Feld, wobei die Datentypen der einzelnen Objekte verschieden sein können\\ Syntax:
+\begin{verbatim}
+julia> x = [1,2,3,4,5] 	             # Ein Spaltenvektor
+julia> y = Array{Float64}(undef,1,3) # Eine 1x3 Matrix
+                                     # undef bedeutet, dass keine Werte übergeben werden
+julia> A = [[1 , 0] [0 , 1]]        # Eine 2-dimensionale Einheitsmatrix
+\end{verbatim}
+Arrays werden insbesondere für Vektoren, Matrizen, Listen und Tabellen verwendet
+\item Der Zugriff auf einzelne Elemente eines Array erfolgt über Angabe des Index in eckigen Klammern:
+\begin{verbatim}
+julia> x[2]            # Ruft das zweite Element von x auf
+julia> x[2:4]          # Ruft das 2-te bis 4-te Element von x auf
+\end{verbatim}
+\item julia legt automatisch anhand der Deklaration den zulässigen Datentypen der Elemente fest\\
+Werden nur Integer Werte gespeichert, so können nur noch diese in dem Array gespeichert werden.
+\item Elemente eines Array können verändert werden
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Datentypen IV}
+Der Doppelpunkt \verb+:+ besitzt verschiedene Funktionen. Eine wichtige ist das Erzeugen von Range-Objekten.
+\begin{itemize}[<+->]
+\item Im einfachsten Fall werden Start- und Endpunkt gesetzt. Die Schrittweite wird implizit als Eins angenommen:
+\begin{verbatim}
+julia> r = 1:10         # 1,2,3,4,5,6,7,8,9,10
+\end{verbatim}
+\item Soll die Schrittweite angepasst werden, so wird dies in der Form \verb+Start:Schrittweite:Ende+ erzeugt:
+\begin{verbatim}
+julia> r = 1:2:10       # 1,3,5,7,9
+julia> r = 6.5:-1:1.5   # 6.5, 5.5, 4.5, 3.4, 2.5, 1.5
+\end{verbatim}
+\item Eine Anwendungsmöglichkeit für Range-Objekte ist die Erzeugung von Arrays mit Hilfe der \verb+collect()+ Funktion:
+\begin{verbatim}
+julia> collect(0:2:1000); # Array der geraden Zahlen von 0 bis 1000
+\end{verbatim}
+\item Eine weitere wichtige Anwendung sind Schleifen und die sog. \textit{comprehension}, etwa:
+\begin{verbatim}
+julia> x = [i*j for i=1:10, j =-5:1:5]
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Datentypen V}
+\begin{itemize}[<+->]
+\item Arrays können mittels des \verb+cat+ Befehls verkettet werden\\[0.3cm]
+\begin{tabular}{|l|l|l|}
+\hline 
+Befehl & Beschreibung & Spezieller Syntax \\
+\hline
+\verb+cat(A...;dims=k)+ & Verketten der Arrays & \\ 
+ & entlang der Dimension(en) k & \\
+\hline 
+\verb+vcat(A...)+ & wie \verb+cat+ mit k=1 (\glqq Verkettung untereinander\grqq)& \verb+[A; B; C]+\\ 
+\hline
+\verb+hcat(A...)+ & wie \verb+cat+ mit k=2 (\glqq Verkettung nebeneinander\grqq)& \verb+[A B C]+\\ 
+\hline 
+\end{tabular} 
+\item Beispiel:
+\begin{verbatim}
+julia> A = [1,2];                         julia>[A;B]
+julia> B = [3,4];                         4-element Array{Int64,1}:
+julia> [A B]                               1
+2×2 Array{Int64,2}:                        2
+ 1  3                                      3
+ 2  4                                      4
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Datentypen VI}
+\begin{itemize}[<+->]
+\item \textit{Tuple}: Tuple sind sehr ähnlich zu Arrays, mit dem Unterschied, dass Tuple nicht verändert werden können\\Syntax:
+\begin{verbatim}
+julia> t = (1, 1.0, 2) # Ein Tuple mit drei nicht manipulierbaren Einträgen
+julia> typeof(t)
+Tuple{Int64,Float64,Int64}
+\end{verbatim}
+\item \textit{Dictionary}: In einem Dictionary werden für eindeutige Schlüssel dazugehörige Werte gespeichert\\Syntax:
+\begin{verbatim}
+julia> dict1 = Dict("a" => 1, "b" => 2, "c" => 3)      
+julia> dict2 = Dict{String,Integer}("a"=>1, "b" => 2)  
+julia> dict1["a"]                                     
+1
+\end{verbatim}
+Dictionarys sind ungeordnet (wie eine Menge) und werden etwa dazu verwendet Ergebnisse abzuspeichern und abzufragen
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Zusammengesetzte Ausdrücke}
+\begin{itemize}[<+->]
+\item Mittels \verb+begin+...\verb+end+ oder \verb+(...;...;...)+ können Ketten von Befehlen durchgeführt werden\footnote{Im Folgenden wird auf die Angabe von \glqq julia$>$\grqq{} im Code verzichtet.}
+\item Bei einer Zuweisung wird der letzte berechnete Ausdruck der Variablen zugewiesen
+\item Syntax:
+\begin{verbatim}
+a = begin
+    b = 1
+    c = 3
+    (b*c)/(b+c)                  # Hier wird a = (b*c)/(b+c) gesetzt
+end
+
+d = begin e = 4; f = 2; e/f end  # d = e/f
+\end{verbatim}
+oder
+\begin{verbatim}
+a = ( b = 1; c = 3; (b*c)/(b+c) )
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{If-else-elseif}
+Bedingungen werden in julia über folgenden Syntax implementiert:
+\begin{verbatim}
+if <Bedingung>
+    <Befehle>
+elseif <Bedingung> #es kann keine, eine oder mehrere elseif Bedingung verwendet werden
+    <Befehle>
+else
+    <Befehle>
+end
+\end{verbatim}\pause
+Beispiel:
+\begin{verbatim}
+if x < y
+    println("x ist kleiner als y")
+elseif x > y
+    println("x ist größer y")
+else
+    println("x ist gleich y")
+end
+\end{verbatim}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{while- und for-Schleifen}
+\begin{itemize}[<+->]
+\item Befehle innerhalb einer while-Schleife werden so lange ausgeführt, bis die im Schleifenkopf formulierte Bedingung nicht mehr erfüllt ist
+\begin{verbatim}
+while <Bedingung>
+       <Befehle>
+end
+\end{verbatim}
+\item Die for-Schleife wird zum Iterieren über einzelne Elemente einer Sammlung verwendet:
+\begin{verbatim}
+for <element> in <Sammlung>
+     <Befehle>
+end
+\end{verbatim}
+\item Beispiele
+\begin{verbatim}
+n = 10                          for i in 10:-1:1
+while n > 0                            println(i)
+      println(n)                end
+      n = n - 1;
+end
+
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Funktionen I - Syntax}
+Eigene Funktionen können über den folgenden Syntax definiert werden:
+\begin{verbatim}
+function <Funktionsname>(<Eingabewerte>)
+           <Befehle>
+end
+\end{verbatim}\pause
+\begin{itemize}[<+->]
+\item Wird eine \verb+return+ Anweisung nicht verwendet, wird standardmäßig das letzte berechnete Wert zurückgegeben
+\item \verb+return+ Anweisungen sind also insbesondere dann notwendig, wenn etwa über eine \verb+if+ Abfrage der Rückgabewert bestimmt wird
+\item Die Funktion \verb+func+ berechnet den Mittelwert zweier Werte:
+\begin{verbatim}
+function func(arg1,arg2)
+           (arg1+arg2)/2;
+end
+\end{verbatim}
+\item julia bietet auch eine sehr simple Notation für Funktionen an:
+\begin{verbatim}
+func(arg1,arg2) = (arg1+arg2)/2
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Funktionen II - Angabe von Parametertypen}
+\begin{itemize}[<+->]
+\item Datentypen der Eingabewerte können mittels \verb+::<Datentyp>+ nach dem jeweiligen Eingabeparameter spezifiziert werden:
+\begin{verbatim}
+func(arg1::Float64,arg2::Float64) = (arg1+arg2)/2
+\end{verbatim}
+\item Datentyp des Rückgabewertes können mittels \verb+::<Datentyp>+ hinter der schließenden Klammer der Eingabewerte spezifiziert werden:
+\begin{verbatim}
+func2(x,y)::Int64 = x*y
+\end{verbatim}
+\item Operatoren wie die Addition + sind Funktionen mit einem speziellen Syntax
+\item julia bietet auch die Möglichkeit Funktionen ohne Namen, sog. anonyme Funktionen, zu definieren:
+\begin{verbatim}
+(x,y) -> x*y
+\end{verbatim}
+Anonyme Funktionen werden insbesondere dann verwendet, wenn die Funktion nur einmal benötigt wird
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Funktionen III - Methoden}
+Betrachten wir einmal die Funktion \verb+f+ und die dazugehörige Ausgabe:
+\begin{verbatim}
+f(x,y) = (x*y)/(x+y)
+f (generic function with 1 method)
+\end{verbatim}
+\begin{itemize}[<+->]
+\item Die Funktion \verb+f+ ist ein Objekt vom Typ \verb+generic function+ mit einer Methode
+\item Eine Methode einer Funktion ist die konkrete Ausgestaltung einer Funktion
+\item Die Addition besitzt 163 Methoden, wobei jede Methode für bestimmte Datentypen bestimmt ist
+\item \verb+generic function+ lässt sich also als das theoretische Konzept der Funktion verstehen, wobei jede Methode eine konkrete Ausprägung ist
+\item Bei der Addition ist eine Methode z.B. dafür da zwei Gleitkommazahlen zu addieren, eine andere hingegen für zwei Arrays
+\item Der Befehl \verb+methods(<funktionsname>)+ listet alle Methoden der Funktion auf und gibt die Stelle an, wo die Methode implementiert ist
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Funktionen IV - Optionale Argumente}
+\begin{itemize}
+\item Funktionen können auch optionale Argumente enthalten
+\pause
+\item Optionale Argumente werden mit einem Standardwert angelegt, der von der Funktion verwendet wird, wenn für das optionale Argument kein Wert übergeben wird
+\pause
+\item Beispiel:
+\begin{verbatim}
+function func(x,y,z=0)
+     return x+y+z
+end
+\end{verbatim}
+Hier ist \verb+z+ ein optionales Argument
+\pause
+\item Werden nur Werte für \verb+x+ und \verb+y+ übergeben, so wird für \verb+z+ der Wert 0 genommen
+\begin{verbatim}
+func(1,1)
+2
+\end{verbatim}
+\pause
+\item Werden drei Werte übergeben, so wird für \verb+z+ der dritte Wert genommen
+\begin{verbatim}
+func(1,1,1)
+3
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Funktionen V - Schlüsselwort Argumente}
+Bei den bisherigen Definitionen von Funktionen kam es auf die Reihenfolge der Argumente an.
+\begin{itemize}
+\pause
+\item Zunächst ein Beispiel:
+\begin{verbatim}
+function func(x ; y = 1)
+       return y/x
+end
+\end{verbatim}
+\pause
+\item \verb+y+ ist ein optionales Argument mit Schlüsselwort, d.h. wenn ein Wert für \verb+y+ übergeben werden soll, dann muss das unter Angabe der Schlüsselwortes (hier \verb+y+) erfolgen
+\begin{verbatim}
+func(1,y=2)
+2.0
+\end{verbatim}
+\pause
+\item Schlüsselwort Argumente können an einer beliebiger Stelle innerhalb der Argumentenliste übergeben werden
+\begin{verbatim}
+func(y = 3, 4)
+0.75
+\end{verbatim}
+\item Schlüsselwort Argumente schaffen also insbesondere Übersicht bei Funktionen mit vielen Argumenten\pause
+\item Schlüsselwort Argumente werden bei der Definition nach dem Semikolon angegeben, dadurch sind sie von den normalen optionalen Argumenten unterscheidbar
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Rekursion}
+Oftmals lassen sich Funktionen wesentlich einfacher \textit{rekursiv} realisieren.
+\begin{block}{Rekursion}
+Eine Funktion $f$ heißt \textit{rekursiv}, wenn
+\begin{itemize}[<+->]
+\item der Funktionsrumpf einen Aufruf der Funktion f selbst (direkt) oder eine andere Funktion g, die wiederum f aufruft (indirekt), enthält
+\item $f$ eine Terminierungsbedingung (auch Rekursionsanker genannt) enthält
+\item jede Eingabe nach endlich vielen Schritten terminiert
+\end{itemize}
+\end{block}
+Einige Datenstrukturen, wie etwa Bäume, werden ebenfalls Rekursiv realisiert.
+\end{frame}
+\begin{frame}[fragile]
+Beispiel:
+Die Fakultät für eine natürliche Zahl (d.h. $n\geq 0$) ist definiert als
+\[ n! = \begin{cases} 1 & \text{ falls } n = 0 \\ n\cdot (n-1)! & \text{ sonst } \end{cases} \]
+Diese Definition lässt direkt rekursiv umsetzen:
+\begin{verbatim}
+function fakultaet(n::Int)
+           if(n < 0)
+             error("n muss nicht-negativ sein!")
+           elseif (n == 0)
+              return 1
+           else
+              return n * fakultaet(n-1)
+           end
+end
+\end{verbatim}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Zusammengesetzte Datentypen}
+In Julia können zusammengesetzte Datentypen mit dem Schlüsselwort \verb+struct+ definiert werden:
+\begin{verbatim}
+struct <Name>
+    <Variablen mit optionalen Datentypen>              
+end
+\end{verbatim}\pause
+Beispiel:
+\begin{verbatim}
+struct MeinDatentyp     # struct <Name>
+    a                   # a kann jeden Datentypen aufnehmen
+    b::Int              # b muss ein Integer sein
+    c::String           # c muss ein String sein
+end
+\end{verbatim}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Standard Konstruktoren}
+\begin{itemize}[<+->]
+\item Mit Konstruktoren lassen sich neue Objekte eines zusammengesetzten Datentyps erzeugen
+\item Standardmäßig werden bei der Definition eine zusammengesetzten Datentyps zwei Konstruktoren automatisch mit erzeugt
+\item Der eine Konstruktor nimmt alle Argumente und versucht diese passend umzuwandeln, sodass ein neues Objekt erzeugt werden kann
+\item Der andere Konstruktor nimmt nur Argumente mit den exakt gleichen Typen und erzeugt ein neues Objekt
+\item Syntax:
+\begin{verbatim}
+<Variable> = <Name des zusammengesetzten Datentyps>(<Argumente>)
+\end{verbatim}
+\item Beispiel: Neue Objekte vom Typ \verb+MeinDatentyp+ können mittels des Konstruktors erzeugt werden (Hier ist die Reihenfolge wie üblich wichtig):
+\begin{verbatim}
+x = MeinDatentyp('x',5,"Fünf")
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Eigene Konstruktoren}
+Eigene Konstruktoren können wir Funktionen erzeugt werden, wobei der Funktionsname gleich dem Namen des zusammengesetzten Datentyps sein muss.\\
+Beispiel:
+\begin{verbatim}
+struct MyNumber
+    myint::Int
+end
+
+MyNumber() = MyNumber(0)
+# floor() rundet x ab, Int() wandelt das Ergebnis in einen Integer um
+MyNumber(x::Float) = Int(floor(x))
+\end{verbatim}
+Konstruktoren werden außerhalb der \verb+struct+ Umgebung definiert!
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Zugriff auf die Attribute eines Struct}
+\begin{itemize}[<+->]
+\item Mittels der Funktion \verb+fieldnames()+ können die Namen der Attribute aufgelistet werden
+\item Beispiel:
+\begin{verbatim}
+l = fieldnames(MyNumber)
+\end{verbatim}
+\item Mittels des Punktoperators können die Werte der Attribute ausgelesen werden:
+\begin{verbatim}
+x = MyNumber(3)
+y = x.myint        # y hat nun den Wert 3
+\end{verbatim}
+\item Achtung: Nach dem Erzeugen sind Objekte von zusammengesetzten Datentypen nicht veränderbar! (engl. immutable)
+\item Soll ein Objekt veränderbar sein, so muss dies bereits bei der Definition des zusammengesetzten Datentyps mit dem Schlüsselwert \verb+mutable+ angegeben werden:
+\begin{verbatim}
+mutable struct MyNumber2
+   myint::Int
+end
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Hilfreiche Funktionen}
+\begin{itemize}[<+->]
+\item Konvertieren eines Wertes $x$ in einen anderen Datentypen: \verb+convert(Datentyp,x)+
+\item Runden eines Wertes $x$: \verb+round(x)+ (Achtung: Das Ergebnis ist ein Float!)
+\item Runden eines Wertes $x$ als Integer: \verb+round(Int,x)+
+\item Abrunden eines Wertes $x$: \verb+floor(x)+
+\item Aufrunden eines Wertes $x$: \verb+ceil(x)+
+\item Vektor mit $n$ Einträgen gleich $0$: \verb+zeros(n)+
+\item Vektor mit $n$ Einträgen gleich $1$: \verb+ones(n)+
+\item Matrix mit $n\times m$ Einträgen gleich $0$: \verb+zeros(n,m)+
+\item Matrix mit $n\times m$ Einträgen gleich $1$: \verb+ones(n,m)+
+\item Prüfen ob der Wert $x$ in dem Vektor/ der Matrix $A$ vorkommt:
+\begin{verbatim}
+in(x,A)
+x in A
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Der Packagemanager}
+\begin{itemize}[<+->]
+\item Packagemanager nutzen: \verb+]+ im REPL oder \verb+using Pkg+
+\item Liste alle installierten Pakete: \verb+Pkg.status()+
+\item Update für alle Pakete: \verb+Pkg.update()+
+\item Paket installieren: \verb+Pkg.add("PackageName")+
+\item Paket einbinden (vorher muss es installiert werden): \verb+using PackageName+
+\item Paket entfernen: \verb+Pkg.rm("PackageName")+
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{(Pseudo-) Zufallszahlen}
+\begin{itemize}[<+->]
+\item Paket einbinden: \verb+using Random+
+\item Zufallssaat setzen: \verb+seed!(seednumber)+
+\item Gleichverteilte Zufallszahl aus dem Intervall $[0,1)$: \verb+ x = rand()+
+\item Gleichverteilte Zufallszahl aus den Werten $1,2,3,4,5$: \verb+ x = rand(1:5)+
+\item Gleichverteilter Zufallswert aus der Menge $A$: \verb+ x = rand(A)+
+\item Matrix der Dimension $n\times m$ von Zufallszahlen: \verb+vec = rand(n,m)+
+\item Matrix der Dimension $n\times m$ von Zufallswerten aus der Menge $A$: \verb+vec = rand(A,n,m)+
+\item Standardnormalverteilte Zufallszahl: \verb+x = randn()+
+\item Zufällige Permutation der Elemente von $A$: \verb+shuffle(A)+
+\item Andere Verteilungen einbinden:
+\begin{verbatim}
+using Distributions
+verteilung = Bernoulli(0.2) # Beispiel
+x = rand(verteilung)
+\end{verbatim}
+\end{itemize}
+\end{frame}
+%%% Dataframes %%%
+\begin{frame}[fragile]
+\frametitle{Dataframe}
+\begin{block}{Dataframe}
+Ein Dataframe ist ein Datenstruktur, das Informationen geordnet nach Zeilen und Spalten beinhaltet. Er ist vergleichbar mit einer Tabelle. Eine Zeile stellt ein Objekt/ einen Datensatz dar. Eine Spalte stellt ein Merkmal der Objekte dar. In der ersten Spalte steht üblicherweise eine ID um die einzelnen Objekte zu unterscheiden.
+\end{block}
+Beispiel eines Dataframes in Julia:
+\begin{verbatim}
+| Row   | Länge | Breite    | Höhe  |
+|       | Int64 | Int64     | Int64 |
+|-------|-------|-----------|-------|
+| 1     | 1     | 1         | 3     |
+| 2     | 3     | 1         | 2     |
+| 3     | 2     | 1         | 2     |
+\end{verbatim}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Julia Syntax für Dataframes}
+\begin{itemize}[<+->]
+\item Package einbinden: \verb+Pkg.add("DataFrames")+
+\item Leeren Dataframe erzeugen: \verb+df = Dataframe()+
+\item Dataframe mit Spaltennamen und Spaltenwerden erzeugen: \verb+df = DataFrame(A = 1:5, B = ["H", "A", "L", "L", "O"])+
+\item Dataframe aus einer Matrix $A$ erzeugen: \verb+df = DataFrame(A)+ \\(standard Spaltennamen werden automatisch ergänzt) 
+\item Abrufen der Spalte mit dem Namen \verb+A+ : \verb+df[:A]+ oder \verb+df.A+
+\item Spalten können auch über den Index aufgerufen werden: \verb+df[1]+ (Hier wird die 1. Spalte aufgerufen)
+\item Eine neue Spalte (hier C) kann direkt mit Inhalten dem Dataframe df hinzugefügt werden: \verb+df[:C] = [1,1,2,2,1]+
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Eckdaten eines Dataframes}
+\begin{itemize}[<+->]
+\item Die Größe eines Dataframes, d.h. Zeilenanzahl $\times$ Spaltenanzahl, eines Dataframes \verb+df+ erhält man über \verb+size(df)+
+\item Die ersten $n$ Zeilen eines Dataframes \verb+df+ können mittels \verb+first(df,n)+ ausgegeben werden
+\item Die letzten $n$ Zeilen mittels \verb+last(df,n)+
+\item Die Spaltennamen können mittels \verb+names(df)+ ausgegeben werden
+\item Informationen wie Minimum, Maximum, Anzahl der fehlenden Werte, Mittelwert, Median und Datentyp einer Spalte kann mit \verb+describe(df)+ kompakt ausgegeben werden
+\item Auswahl konkreter Bereiche durch \verb+df[<Zeilenauswahl>,<Spaltenauswahl>]+, z.B.
+\begin{verbatim}
+df[3:8,:]     # 3. bis 8. Zeile mit allen Spalten
+df[[1,5,6],:] # Zeilen 1,5 und 6 mit allen Spalten
+df[:,2:5]     # 2. bis 5. Spalte mit allen Zeilen
+df[:,[:A,:B]] # Alle Zeilen mit den Spalten :A und :B
+\end{verbatim}
+\item Insbesondere können logische Aussagen zur Auswahl genutzt werden:
+\begin{verbatim}
+df[df[:A].>0.5,:]  #Alle Zeilen bei denen der Wert in Spalte A größer als 0.5 ist
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Manipulation von Dataframes I}
+\begin{itemize}[<+->]
+\item Spalten umbenennen: 
+\begin{verbatim}
+rename!(df, :AlterName => :NeuerName)
+rename!(df, f => t for (f, t) = zip([:A1, :A2], [:N1, :N2]))
+\end{verbatim}
+\item Zeilen hinzufügen:
+\begin{verbatim}
+push!(df, [wert1,wert2,wert3]) 
+\end{verbatim}
+\item Zeilen löschen:
+\begin{verbatim}
+deleterows!(df, 3:5)      # Löschen Zeilen 3,4,5 in df
+\end{verbatim}
+\item Spalten löschen:
+\begin{verbatim}
+delete!(df, :X)     # Lösche Spalte :X in df
+\end{verbatim}
+\item Der Befehl \verb+groupby()+ fasst unterteilt einen Dataframe in verschiedene Unter-Dataframes anhand der Einträge einer Spalte. Alle Zeilen mit dem gleichen Wert in dieser Spalte werden zusammengefasst:
+\begin{verbatim}
+groupby(df, :Spaltenname)
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Manipulation von Dataframes II}
+\begin{itemize}[<+->]
+\item Alle Zeilen mit einem konkreten Wert in einer Spalte:
+\begin{verbatim}
+df[df[:Spaltenname] .== Wert, :]
+\end{verbatim}
+\item Mittels der \verb+by()+ Funktion wird der Dataframe wie bei \verb+groupby()+ gruppiert, anschließend kann eine Funktion auf die Spalten der Unter-Dataframes übergeben werden:
+\begin{verbatim}
+by(df, :A, df -> func(df[:B]))
+\end{verbatim}
+\item Einfaches sortieren anhand der ersten Spalte:
+\begin{verbatim}
+sort!(df)
+sort!(df, ref=true)
+\end{verbatim}
+\item Anhand ausgewählter Spalten sortieren:
+\begin{verbatim}
+sort!(df, (:SpalteA, :SpalteB))
+\end{verbatim}
+\item Sortieren mit verschiedenen Ordnungen/Sortierungen:
+\begin{verbatim}
+sort!(df, (order(:SpalteA, by = uppercase),
+                    order(:SpalteB, rev = true)));
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Spalten- und Zeilenweise Schleifen}
+\begin{itemize}[<+->]
+\item Zeilenweise:
+\begin{verbatim}
+for zeile in eachrow(df)
+    # mache etwas, etwa:
+    println(zeile)
+    println(typeof(zeile))
+end
+\end{verbatim}
+\item Spaltenweise:
+\begin{verbatim}
+for spalte in eachcol(df)
+    # mache etwas, etwa
+    println(spalte)
+    println(typeof(spalte))
+end
+\end{verbatim}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Konventionen und Empfehlungen für Namen}
+\begin{itemize}[<+->]
+\item Variablen:
+\begin{itemize}
+\item Namen sollen in Kleinbuchstaben geschrieben werden
+\item Trennung durch Unterstriche \_ soll nur verwendet werden, wenn der Name sonst zu schwer zu lesen ist
+\end{itemize}
+\item Funktionen:
+\begin{itemize}
+\item Namen in Kleinbuchstaben, ohne Unterstriche
+\item Wird ein Argument verändert, so wird dies durch ein Ausrufezeichen ! im Namen gekennzeichnet
+\item Es sollte immer das erste Argument sein, das verändert werden soll
+\item Beispiel: \verb+sort()+ gibt das sortierte Feld zurück und \verb+sort!()+ sortiert direkt im übergebenen Feld
+\end{itemize}
+\item Module und Typen:
+\begin{itemize}
+\item Namen beginnen mit einem Großbuchstaben
+\item Jedes Wort im Namen soll mit einem Großbuchstaben beginnen und es sollen keine Unterstriche verwendet werden
+\item Beispiel: \verb+module MeinModul+  oder  \verb+struct MeinDatentyp+
+\end{itemize}
+\item Weitere (fortgeschrittene) Style Empfehlungen: \url{https://docs.julialang.org/en/v1/manual/style-guide/#Style-Guide-1}
+\end{itemize}
+\end{frame}

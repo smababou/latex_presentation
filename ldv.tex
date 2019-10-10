@@ -1,0 +1,130 @@
+\PassOptionsToPackage{unicode}{hyperref}
+
+%Präsentationsmodus:
+%\documentclass[aspectratio=1610, professionalfonts, 9pt]{beamer}
+
+%Druckmodus:
+\documentclass[aspectratio=1610, professionalfonts, 9pt]{beamer}
+%\usepackage[usenames,dvipsnames]{xcolor}
+\usefonttheme[onlymath]{serif}
+\usetheme[showtotalframes]{tudoflw}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\ifluatex
+  \usepackage{polyglossia}
+  \setmainlanguage{german}
+\else
+  \ifxetex
+    \usepackage{polyglossia}
+    \setmainlanguage{german}
+  \else
+    \usepackage[german]{babel}
+  \fi
+\fi
+    
+% Mathematik
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{animate}
+\usepackage{mathtools}
+\usepackage{cancel}
+\usepackage{xcolor}
+\definecolor{tugreen}{HTML}{84b819}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{verbatim}
+\usepackage[]{algorithm2e}
+\usepackage{pgf,tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{arrows}
+\usepackage{multirow}
+\usepackage{ulem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[backend=biber]{biblatex}
+\bibliography{LDV-Quellen}
+
+\SetKw{Parameters}{Parameters}
+
+\definecolor{wqwqwq}{rgb}{0.3764705882352941,0.3764705882352941,0.3764705882352941}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1.}
+\definecolor{ffqqqq}{rgb}{1.,0.,0.}
+%\usepackage[numbers]{natbib}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%							Axel Krüger	   							   %%%%%
+%%%%%							TU Dortmund								   %%%%%
+%%%%%					Lehrstuhl für Förder- und Lagerwesen			   %%%%%
+%%%%%					Logistische Datenverarbeitung					   %%%%%
+%%%%% 						Sommersemester 2019							   %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Titel:
+\title[MPC-Planner]{MPC Planner for mobile robots in Complex Environment}
+%Autor
+\author[A.~Abouelkhair]{Abdulrahman Abouelkhair\\ Supervised by: Mojtaba MasoudiNejad, M.Sc.}
+%Lehrstuhl/Fakultät
+\institute[FLW]{\small Lehrstuhl für Förder- und Lagerwesen \\  Fakultät Maschinenbau}
+%Titelgrafik 
+\titlegraphic{\includegraphics[width=0.3\textwidth]{pictures/mpc_robot}}
+\date[SoSe 2019]{Master Thesis - Automation \& Robotics}
+
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=false,rounded=true]{title in head/foot}
+    \setlength{\fboxrule}{1pt}
+    \fcolorbox{tugreen}{white}{\usebeamerfont{title}\insertsectionhead\par}
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+ %Damit das Inhaltsverzeichnis nummeriert ist
+\setbeamertemplate{sections/subsections in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}
+    \frametitle{Agenda}
+    %\tableofcontents[pausesections]
+    \tableofcontents
+\end{frame}
+
+% Organisatorisches
+\input{Kapitel_0.tex}
+
+% Ziele
+\input{Kapitel_1.tex}
+
+% Einführung
+\input{Kapitel_2.tex}
+
+% Statistik
+\input{Kapitel_3.tex}
+
+
+% Julia
+\input{Kapitel_5.tex}
+
+% Datenanalyse
+\input{Kapitel_6.tex}
+
+% Datenbanken
+% \input{Kapitel_4.tex}
+
+%Quellenverzeichnis
+\begin{frame}[allowframebreaks]
+        \frametitle{Quellenverzeichnis}
+        %\bibliographystyle{plain}
+        \printbibliography
+\end{frame}
+\end{document}

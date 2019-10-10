@@ -1,0 +1,10 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {german}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Introduction and Motivation}{15}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Obstacles Formulation}{51}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Einf\IeC {\"u}hrung in die Programmiersprache julia}{228}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Datenanalyse}{408}{0}{4}

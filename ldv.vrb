@@ -1,0 +1,18 @@
+\frametitle{Vorgehen für kNN}
+%Bevor diese drei Fragen behandelt werden, wird zunächst das allgemeine Vorgehen von kNN vorgestellt:\\[0.2cm]
+\begin{algorithm}[H]
+ \Parameters{$k$, Norm}\\
+ \KwData{Traingingsdaten $(x_i,y_i) , i = 1,\ldots,m$\\
+ $~~~~~~~~~$ Testdaten $(x_i,y_i) , i = m+1,\ldots,m+n$}
+ \KwResult{Vorhergesagte Klassen $\hat{y}_i$ für $i=m+1,\ldots,m+n$ }
+ \For{Jeden Datenpunkt $x_i$ der Trainingsdaten}{
+ 	Bestimme die $k$ Punkte aus der Trainingsmenge, die bzgl. der gewählten Norm am nächsten an $x_i$ liegen\\
+	Die Prognostizierte Klasse $\hat{y}_i$ ist die Klasse, die am häufigsten unter diesen $k$ Punkten vorkommt
+ }
+ \Return $[\hat{y}_{m+1},\ldots,\hat{y}_{m+n}]$
+\end{algorithm}
+\begin{itemize}[<+->]
+\item Der Algorithmus wird also maßgeblich durch die konkreten Wahl der Norm und $k$ bestimmt
+\item Statt einfach die Mehrheit zu nehmen, kann auch die Entfernung der Nachbarpunkte mit in die Wertung einbezogen werden
+\item $k$ wird häufig ungerade gewählt, um einen Gleichstand zu vermeiden
+\end{itemize}
