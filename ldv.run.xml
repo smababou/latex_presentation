@@ -79,7 +79,7 @@
       <file>ldv.bcf</file>
     </requires>
     <requires type="editable">
-      <file>LDV-Quellen.bib</file>
+      <file>reference.bib</file>
     </requires>
   </external>
 </requests>

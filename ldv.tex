@@ -4,7 +4,7 @@
 %\documentclass[aspectratio=1610, professionalfonts, 9pt]{beamer}
 
 %Druckmodus:
-\documentclass[aspectratio=1610, professionalfonts, 9pt]{beamer}
+\documentclass[handout, aspectratio=1610, professionalfonts, 9pt]{beamer}
 %\usepackage[usenames,dvipsnames]{xcolor}
 \usefonttheme[onlymath]{serif}
 \usetheme[showtotalframes]{tudoflw}
@@ -22,9 +22,12 @@
 \fi
     
 % Mathematik
+\usepackage{multimedia}
+\usepackage{siunitx}
+\usepackage{animate}
+\usepackage{color, colortbl}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{animate}
 \usepackage{mathtools}
 \usepackage{cancel}
 \usepackage{xcolor}
@@ -35,13 +38,13 @@
 \usepackage[]{algorithm2e}
 \usepackage{pgf,tikz}
 \usepackage{pgfplots}
-\usetikzlibrary{arrows}
+\usetikzlibrary{arrows, positioning, tikzmark, fit, calc}
 \usepackage{multirow}
 \usepackage{ulem}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage[backend=biber]{biblatex}
-\bibliography{LDV-Quellen}
+\bibliography{reference.bib}
 
 \SetKw{Parameters}{Parameters}
 
@@ -105,26 +108,30 @@
 % Ziele
 \input{Kapitel_1.tex}
 
-% Einführung
+% Introduction and motivation
 \input{Kapitel_2.tex}
+%\input{Kapitel_2_1.tex}
 
-% Statistik
+% Obstacles
 \input{Kapitel_3.tex}
+%\input{Kapitel_3_1.tex}
 
+% NMPC
+\input{Kapitel_4.tex}
 
-% Julia
+% Results
 \input{Kapitel_5.tex}
-
 % Datenanalyse
-\input{Kapitel_6.tex}
+%\input{Kapitel_6.tex}
 
 % Datenbanken
 % \input{Kapitel_4.tex}
 
 %Quellenverzeichnis
 \begin{frame}[allowframebreaks]
-        \frametitle{Quellenverzeichnis}
-        %\bibliographystyle{plain}
-        \printbibliography
+	\frametitle{Reference}
+	%\bibliographystyle{plain}
+	\printbibliography
 \end{frame}
+
 \end{document}

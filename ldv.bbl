@@ -19,62 +19,55 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{fayyad_data_1996}{article}{}
+    \entry{hoy_matveev_savkin_2015}{article}{}
       \name{author}{3}{}{%
-        {{hash=b42d184c7549161c8fe0c2d53decab94}{%
-           family={Fayyad},
-           familyi={F\bibinitperiod},
-           given={Usama},
-           giveni={U\bibinitperiod}}}%
-        {{hash=34f8ca71a399161ab92f9d68b804869f}{%
-           family={Piatetsky-Shapiro},
-           familyi={P\bibinithyphendelim S\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod}}}%
-        {{hash=4940852a16a84802eb98552d6deace24}{%
-           family={Smyth},
+        {{hash=fcaf6bc4178690f0a5cf873f83f77086}{%
+           family={Hoy},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb896aeb4bbbf60988545415900ffb03}{%
+           family={Matveev},
+           familyi={M\bibinitperiod},
+           given={Alexey\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c6a5eb91ef23c39cd3d78540276eb4a6}{%
+           family={Savkin},
            familyi={S\bibinitperiod},
-           given={Padhraic},
-           giveni={P\bibinitperiod}}}%
+           given={Andrey\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en-US}%
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
       }
-      \strng{namehash}{f401cd48784ca09966764313d60e64c0}
-      \strng{fullhash}{f401cd48784ca09966764313d60e64c0}
-      \strng{bibnamehash}{f401cd48784ca09966764313d60e64c0}
-      \strng{authorbibnamehash}{f401cd48784ca09966764313d60e64c0}
-      \strng{authornamehash}{f401cd48784ca09966764313d60e64c0}
-      \strng{authorfullhash}{f401cd48784ca09966764313d60e64c0}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \strng{namehash}{4956d5a036eff3f7dcb9e6247e77fec5}
+      \strng{fullhash}{4956d5a036eff3f7dcb9e6247e77fec5}
+      \strng{bibnamehash}{4956d5a036eff3f7dcb9e6247e77fec5}
+      \strng{authorbibnamehash}{4956d5a036eff3f7dcb9e6247e77fec5}
+      \strng{authornamehash}{4956d5a036eff3f7dcb9e6247e77fec5}
+      \strng{authorfullhash}{4956d5a036eff3f7dcb9e6247e77fec5}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{2371-9621}
-      \field{journaltitle}{1}
-      \field{month}{3}
+      \field{issn}{0263-5747}
+      \field{journaltitle}{Robotica}
       \field{number}{3}
-      \field{title}{From {Data} {Mining} to {Knowledge} {Discovery} in {Databases}}
-      \field{urlday}{29}
-      \field{urlmonth}{10}
-      \field{urlyear}{2018}
-      \field{volume}{17}
-      \field{year}{1996}
-      \field{urldateera}{ce}
-      \field{pages}{37\bibrangedash 37}
-      \range{pages}{1}
+      \field{title}{Algorithms for collision-free navigation of mobile robots in complex cluttered environments: a survey}
+      \field{volume}{33}
+      \field{year}{2015}
+      \field{pages}{463\bibrangedash 497}
+      \range{pages}{35}
       \verb{doi}
-      \verb 10.1609/aimag.v17i3.1230
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\axel2\\Zotero\\storage\\5LL26SQ9\\Fayyad et al. - 1996 - From Data Mining to Knowledge Discovery in Databas.pdf:application/pdf;Snapshot:C\:\\Users\\axel2\\Zotero\\storage\\XDMW7I3F\\1230.html:text/html
+      \verb 10.1017/S0263574714000289
       \endverb
       \verb{urlraw}
-      \verb https://www.aaai.org/ojs/index.php/aimagazine/article/view/1230
+      \verb https://www.cambridge.org/core/journals/robotica/article/algorithms-for-collisionfree-navigation-of-mobile-robots-in-complex-cluttered-environments-a-survey/ADA8F6F7E30123629A26B08DA0C79C8C
       \endverb
       \verb{url}
-      \verb https://www.aaai.org/ojs/index.php/aimagazine/article/view/1230
+      \verb https://www.cambridge.org/core/journals/robotica/article/algorithms-for-collisionfree-navigation-of-mobile-robots-in-complex-cluttered-environments-a-survey/ADA8F6F7E30123629A26B08DA0C79C8C
       \endverb
+      \keyw{Path planning,Navigation,Multi-robot systems,Motion planning,Mobile robots,Control of robotic systems}
     \endentry
   \enddatalist
 \endrefsection
