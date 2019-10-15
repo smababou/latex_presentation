@@ -32,62 +32,6 @@
  	\end{frame}
  
 	\begin{frame}
-		\frametitle{Robot Specifications}
-		\begin{figure}[hbtp]
-			\centering
-			\includegraphics[scale=0.6]{pictures/robotnik.pdf}
-			\caption{NMPC Control Loop with Switching Objective}
-		\end{figure}
-	\end{frame}
- 
-	\begin{frame}
-		\frametitle{Homogeneous Transformation}
-		\begin{block}{Co-ordinate Transformation}
-			\parbox[c][4\baselineskip][t]{\textwidth}{
-			\[
-				T_{obst\_map} = 
-				T_{ft\_map}\enspace T_{r\_ft}\enspace T_{lsr\_r}
-					\begin{pmatrix}
-					x_{obst} \\
-					y_{obst} \\
-					z_{obst} \\
-					1 
-				\end{pmatrix}
-			\]
-			}
-		\end{block}
-		\begin{itemize}
-			\item $
-					T_{footprint\_map} \enspace \text{ }=
-					\begin{pmatrix}
-						\cos\theta_r & -\sin\theta_r & 0 & x_{r} \\
-						\sin\theta_r & \cos\theta_r & 0 & y_{r} \\
-						0 & 0 & 1 & 0 \\
-						0 & 0 & 0 & 1 \\
-					\end{pmatrix}
-					$
-			\item $
-					T_{robot\_footprint} \enspace= 
-					\begin{pmatrix}
-						1 & 0 & 0 & 0 \\
-						0 & 1 & 0 & 0 \\
-						0 & 0 & 1 & -0.125 \\
-						0 & 0 & 0 & 1 \\
-					\end{pmatrix}
-				$
-			\item $
-					T_{laser\_robot} \qquad= 
-					\begin{pmatrix}
-						1 & 0 & 0 & 0 \\
-						0 & 1 & 0 & -0.245 \\
-						0 & 0 & 1 & -0.051 \\
-						0 & 0 & 0 & 1 \\
-					\end{pmatrix}
-				$
-		\end{itemize}
-	\end{frame}
- 
-	\begin{frame}
 		\frametitle{Dynamic Obstacle Estimation}
 		\begin{figure}[hbtp]
 			\centering
@@ -104,14 +48,12 @@
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{On-line Trajectory (prediction horizon)}
 		\centering
-		\movie[width=0.42\textwidth, height=0.45\textwidth]
-			{\includegraphics[width=0.42\textwidth]{pictures/path.png}}{videos/path.mov}
+		\includegraphics[scale=0.7]{pictures/eperiments_1.pdf}
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Scenario I}
+		\frametitle{Scenario \textrm{I}: Empty Environment}
 		\begin{figure}[hbtp]
 			\centering
 			\includegraphics[scale=0.45]{pictures/graphs/sn1_states.eps}
@@ -120,7 +62,7 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Scenario I}
+		\frametitle{Scenario \textrm{I}: Empty Environment}
 		\begin{figure}[hbtp]
 			\centering
 			\includegraphics[scale=0.42]{pictures/graphs/sn1_inputs.eps}
@@ -129,7 +71,7 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Scenario I}
+		\frametitle{Scenario \textrm{I}: Empty Environment}
 		\begin{figure}[hbtp]
 			\centering
 			\includegraphics[scale=0.42]{pictures/graphs/sn1_solver_time.eps}
@@ -137,8 +79,13 @@
 		\end{figure}
 	\end{frame}
  
+	\begin{frame}
+		\centering
+		\includegraphics[scale=0.7]{pictures/eperiments_2.pdf}
+	\end{frame}
+ 
  	\begin{frame}
- 		\frametitle{Scenario II}
+ 		\frametitle{Scenario \textrm{II}: Empty Environment}
  		\begin{figure}[hbtp]
  			\centering
  			\includegraphics[scale=0.44]{pictures/graphs/sn1_states_2.eps}
@@ -147,7 +94,7 @@
  	\end{frame}
  	
  	\begin{frame}
- 		\frametitle{Scenario II}
+ 		\frametitle{Scenario \textrm{II}: Empty Environment}
  		\begin{figure}[hbtp]
  			\centering
  			\includegraphics[scale=0.42]{pictures/graphs/sn1_inputs_2.eps}
@@ -156,16 +103,21 @@
  	\end{frame}
  	
  	\begin{frame}
- 		\frametitle{Scenario II}
+ 		\frametitle{Scenario \textrm{II}: Empty Environment}
  		\begin{figure}[hbtp]
  			\centering
  			\includegraphics[scale=0.42]{pictures/graphs/sn1_solver_time_2.eps}
  			\caption{NMPC Computational Effort}
  		\end{figure}
  	\end{frame}
+ 
+	\begin{frame}
+		\centering
+		\includegraphics[scale=0.7]{pictures/eperiments_3.pdf}
+	\end{frame}
  	
  	\begin{frame}
- 		\frametitle{Scenario III}
+ 		\frametitle{Scenario \textrm{III}: Static Obstacles Environment}
  		\begin{figure}[hbtp]
  			\centering
  			\includegraphics[scale=0.44]{pictures/graphs/sn2_states.eps}
@@ -174,7 +126,7 @@
  	\end{frame}
  	
  	\begin{frame}
- 		\frametitle{Scenario III}
+ 		\frametitle{Scenario \textrm{III}: Static Obstacles Environment}
  		\begin{figure}[hbtp]
  			\centering
  			\includegraphics[scale=0.42]{pictures/graphs/sn2_inputs.eps}
@@ -183,7 +135,7 @@
  	\end{frame}
  	
  	\begin{frame}
- 		\frametitle{Scenario III}
+ 		\frametitle{Scenario \textrm{III}: Static Obstacles Environment}
  		\begin{figure}[hbtp]
  			\centering
  			\includegraphics[scale=0.42]{pictures/graphs/sn2_solver_time.eps}
@@ -192,36 +144,34 @@
  	\end{frame}
  
 	\begin{frame}
-		\frametitle{Scenario IV}
+		\centering
+		\includegraphics[scale=0.7]{pictures/eperiments.pdf}
+	\end{frame}
+ 
+	\begin{frame}
+		\frametitle{Scenario \textrm{IV}: Dynamic Environment}
 		\begin{figure}[hbtp]
 			\centering
-			\includegraphics[scale=0.44]{pictures/graphs/sn3_states.eps}
+			\includegraphics[scale=0.44]{pictures/graphs/sn3_states_1.eps}
 			\caption{State Trajectory Evolution}
 		\end{figure}
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Scenario IV}
+		\frametitle{Scenario \textrm{IV}: Dynamic Environment}
 		\begin{figure}[hbtp]
 			\centering
-			\includegraphics[scale=0.42]{pictures/graphs/sn3_inputs.eps}
+			\includegraphics[scale=0.42]{pictures/graphs/sn3_inputs_1.eps}
 			\caption{Input Trajectory Evolution}
 		\end{figure}
 	\end{frame}
 	
 	\begin{frame}
-		\frametitle{Scenario IV}
+		\frametitle{Scenario \textrm{IV}: Dynamic Environment}
 		\begin{figure}[hbtp]
 			\centering
-			\includegraphics[scale=0.42]{pictures/graphs/sn3_solver_time.eps}
+			\includegraphics[scale=0.42]{pictures/graphs/sn3_solver_time_1.eps}
 			\caption{NMPC Computational Effort}
 		\end{figure}
 	\end{frame}
-
-	\begin{frame}
-		\frametitle{Scenario IV}
-		\centering
-		\movie[width=0.451\textwidth, height=0.865\textheight]
-		{\includegraphics[width=0.45\textwidth]{pictures/good_1.png}}{videos/good_1.mov}
-		\nocite{hoy_matveev_savkin_2015}
-	\end{frame}
+ 

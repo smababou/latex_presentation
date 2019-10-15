@@ -56,6 +56,7 @@
       \field{title}{Algorithms for collision-free navigation of mobile robots in complex cluttered environments: a survey}
       \field{volume}{33}
       \field{year}{2015}
+      \true{nocite}
       \field{pages}{463\bibrangedash 497}
       \range{pages}{35}
       \verb{doi}

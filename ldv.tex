@@ -1,10 +1,10 @@
 \PassOptionsToPackage{unicode}{hyperref}
 
 %Präsentationsmodus:
-%\documentclass[aspectratio=1610, professionalfonts, 9pt]{beamer}
+\documentclass[aspectratio=1610, professionalfonts, 9pt]{beamer}
 
 %Druckmodus:
-\documentclass[handout, aspectratio=1610, professionalfonts, 9pt]{beamer}
+%\documentclass[handout, aspectratio=1610, professionalfonts, 9pt]{beamer}
 %\usepackage[usenames,dvipsnames]{xcolor}
 \usefonttheme[onlymath]{serif}
 \usetheme[showtotalframes]{tudoflw}
@@ -106,7 +106,7 @@
 \input{Kapitel_0.tex}
 
 % Ziele
-\input{Kapitel_1.tex}
+%\input{Kapitel_1.tex}
 
 % Introduction and motivation
 \input{Kapitel_2.tex}
@@ -121,17 +121,19 @@
 
 % Results
 \input{Kapitel_5.tex}
-% Datenanalyse
-%\input{Kapitel_6.tex}
 
-% Datenbanken
-% \input{Kapitel_4.tex}
+% Upgrade
+\input{Kapitel_6.tex}
+
+% Conclusion
+\input{Kapitel_7.tex}
 
 %Quellenverzeichnis
-\begin{frame}[allowframebreaks]
-	\frametitle{Reference}
-	%\bibliographystyle{plain}
-	\printbibliography
-\end{frame}
+\section{Reference}
+	\begin{frame}[allowframebreaks]
+		\frametitle{Reference}
+		%\bibliographystyle{plain}
+		\printbibliography
+	\end{frame}
 
 \end{document}

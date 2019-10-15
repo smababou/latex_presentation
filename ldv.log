@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.14)  14 OCT 2019 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.14)  15 OCT 2019 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2038,7 +2038,7 @@ Package pdftex.def Info: logos/flw.png  used on input line 27.
  [4
 
 ]
-<pictures/springer_robotics.pdf, id=72, 563.10374pt x 756.8275pt>
+<pictures/springer_robotics.pdf, id=80, 563.10374pt x 756.8275pt>
 File: pictures/springer_robotics.pdf Graphic file (type pdf)
 <use pictures/springer_robotics.pdf>
 Package pdftex.def Info: pictures/springer_robotics.pdf  used on input line 44.
@@ -2055,7 +2055,7 @@ Package pdftex.def Info: logos/flw.png  used on input line 44.
  [5
 
  <./pictures/springer_robotics.pdf>]
-<pictures/mpc_book_cover.png, id=118, 446.8695pt x 663.9204pt>
+<pictures/mpc_book_cover.png, id=126, 446.8695pt x 663.9204pt>
 File: pictures/mpc_book_cover.png Graphic file (type png)
 <use pictures/mpc_book_cover.png>
 Package pdftex.def Info: pictures/mpc_book_cover.png  used on input line 61.
@@ -2075,7 +2075,7 @@ Package pdftex.def Info: logos/flw.png  used on input line 61.
 [6
 
  <./pictures/mpc_book_cover.png>]
-<pictures/numerical_optimization.png, id=131, 690.58pt x 998.73125pt>
+<pictures/numerical_optimization.png, id=139, 690.58pt x 998.73125pt>
 File: pictures/numerical_optimization.png Graphic file (type png)
 <use pictures/numerical_optimization.png>
 Package pdftex.def Info: pictures/numerical_optimization.png  used on input lin
@@ -2095,19 +2095,7 @@ Package pdftex.def Info: logos/flw.png  used on input line 78.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
 [7
 
- <./pictures/numerical_optimization.png>]) (./Kapitel_1.tex
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 20.
-(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
-File: logos/flw.png Graphic file (type png)
-<use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 20.
-(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [8
-
-])
-(./Kapitel_2.tex
+ <./pictures/numerical_optimization.png>]) (./Kapitel_2.tex
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package pdftex.def Info: logos/tu.pdf  used on input line 1.
@@ -2116,10 +2104,25 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 1.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [9
+ [8
 
 ]
-<pictures/navi_ros.png, id=162, 1134.639pt x 464.134pt>
+<pictures/navi_ros.png, id=161, 1134.639pt x 464.134pt>
+File: pictures/navi_ros.png Graphic file (type png)
+<use pictures/navi_ros.png>
+Package pdftex.def Info: pictures/navi_ros.png  used on input line 21.
+(pdftex.def)             Requested size: 340.39433pt x 139.24127pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 21.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 21.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [9
+
+ <./pictures/navi_ros.png>]
 File: pictures/navi_ros.png Graphic file (type png)
 <use pictures/navi_ros.png>
 Package pdftex.def Info: pictures/navi_ros.png  used on input line 21.
@@ -2134,10 +2137,40 @@ Package pdftex.def Info: logos/flw.png  used on input line 21.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
  [10
 
- <./pictures/navi_ros.png>]
+]
+File: pictures/navi_ros.png Graphic file (type png)
+<use pictures/navi_ros.png>
+Package pdftex.def Info: pictures/navi_ros.png  used on input line 21.
+(pdftex.def)             Requested size: 340.39433pt x 139.24127pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 21.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 21.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [11
+
+]
+File: pictures/navi_ros.png Graphic file (type png)
+<use pictures/navi_ros.png>
+Package pdftex.def Info: pictures/navi_ros.png  used on input line 21.
+(pdftex.def)             Requested size: 340.39433pt x 139.24127pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 21.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 21.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [12
+
+]
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 8.0pt on input line 40.
-<pictures/navigation_ros_2.pdf, id=175, 305.22029pt x 231.74579pt>
+<pictures/navigation_ros_2.pdf, id=198, 305.22029pt x 231.74579pt>
 File: pictures/navigation_ros_2.pdf Graphic file (type pdf)
 <use pictures/navigation_ros_2.pdf>
 Package pdftex.def Info: pictures/navigation_ros_2.pdf  used on input line 40.
@@ -2155,7 +2188,7 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 40.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[11
+[13
 
  <./pictures/navigation_ros_2.pdf
 
@@ -2177,10 +2210,65 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 58.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [12
+ [14
 
 ]
-<pictures/navigation_ros_3.pdf, id=202, 248.8497pt x 209.8239pt>
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 58.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 58.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [15
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 58.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 58.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [16
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 58.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 58.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [17
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 58.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 58.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [18
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 58.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 58.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [19
+
+]
+<pictures/navigation_ros_3.pdf, id=267, 248.8497pt x 209.8239pt>
 File: pictures/navigation_ros_3.pdf Graphic file (type pdf)
 <use pictures/navigation_ros_3.pdf>
 Package pdftex.def Info: pictures/navigation_ros_3.pdf  used on input line 73.
@@ -2193,7 +2281,7 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 73.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [13
+ [20
 
  <./pictures/navigation_ros_3.pdf
 
@@ -2201,65 +2289,55 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/navigation_ros_3.
 pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', t
 ype <array>); ignored.
 >]
-<pictures/mpc_group/MPC_scheme_basic-0.png, id=222, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-0.png, id=287, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-0.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-0.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-0.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-0.png> <a0,fr0>
-<pictures/mpc_group/MPC_scheme_basic-1.png, id=233, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-1.png, id=298, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-1.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-1.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-1.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-1.png> <a0,fr1>
-<pictures/mpc_group/MPC_scheme_basic-2.png, id=244, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-2.png, id=309, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-2.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-2.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-2.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-2.png> <a0,fr2>
-<pictures/mpc_group/MPC_scheme_basic-3.png, id=255, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-3.png, id=320, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-3.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-3.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-3.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-3.png> <a0,fr3>
-<pictures/mpc_group/MPC_scheme_basic-4.png, id=266, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-4.png, id=331, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-4.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-4.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-4.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-4.png> <a0,fr4>
-<pictures/mpc_group/MPC_scheme_basic-5.png, id=277, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-5.png, id=342, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-5.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-5.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-5.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-5.png> <a0,fr5>
-<pictures/mpc_group/MPC_scheme_basic-6.png, id=288, 327.3831pt x 181.03635pt>
+<pictures/mpc_group/MPC_scheme_basic-6.png, id=353, 327.3831pt x 181.03635pt>
 File: pictures/mpc_group/MPC_scheme_basic-6.png Graphic file (type png)
 <use pictures/mpc_group/MPC_scheme_basic-6.png>
 Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-6.png  used on inp
 ut line 80.
 (pdftex.def)             Requested size: 327.3823pt x 181.0359pt.
  <./pictures/mpc_group/MPC_scheme_basic-6.png> <a0,fr6>
-<pictures/mpc_group/MPC_scheme_basic-7.pdf, id=328, 327.42378pt x 181.17564pt>
-File: pictures/mpc_group/MPC_scheme_basic-7.pdf Graphic file (type pdf)
-<use pictures/mpc_group/MPC_scheme_basic-7.pdf>
-Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-7.pdf  used on inp
-ut line 80.
-(pdftex.def)             Requested size: 327.42297pt x 181.17519pt.
-
-Overfull \vbox (158.96431pt too high) detected at line 80
- []
-
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package pdftex.def Info: logos/tu.pdf  used on input line 80.
@@ -2268,97 +2346,190 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 80.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[14
+
+[21
+
+]
+<pictures/mpc_group/MPC_scheme_basic-7.pdf, id=401, 327.42378pt x 181.17564pt>
+File: pictures/mpc_group/MPC_scheme_basic-7.pdf Graphic file (type pdf)
+<use pictures/mpc_group/MPC_scheme_basic-7.pdf>
+Package pdftex.def Info: pictures/mpc_group/MPC_scheme_basic-7.pdf  used on inp
+ut line 80.
+(pdftex.def)             Requested size: 327.42297pt x 181.17519pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 80.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 80.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [22
 
  <./pictures/mpc_group/MPC_scheme_basic-7.pdf>]
-<pictures/mpc_planner_group/mpc_planner_0.pdf, id=345, 538.01pt x 333.63838pt>
+<pictures/path.png, id=417, 747.79375pt x 803.0pt>
+File: pictures/path.png Graphic file (type png)
+<use pictures/path.png>
+Package pdftex.def Info: pictures/path.png  used on input line 87.
+(pdftex.def)             Requested size: 178.60173pt x 191.78047pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 87.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 87.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [23
+
+ <./pictures/path.png>]
+<pictures/mpc_planner_group/mpc_planner_0.pdf, id=428, 538.01pt x 333.63838pt>
 File: pictures/mpc_planner_group/mpc_planner_0.pdf Graphic file (type pdf)
 <use pictures/mpc_planner_group/mpc_planner_0.pdf>
 Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_0.pdf  used on 
-input line 92.
-(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
-<pictures/mpc_planner_group/mpc_planner_1.pdf, id=346, 538.01pt x 333.63838pt>
-File: pictures/mpc_planner_group/mpc_planner_1.pdf Graphic file (type pdf)
-<use pictures/mpc_planner_group/mpc_planner_1.pdf>
-Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_1.pdf  used on 
-input line 92.
-(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
-<pictures/mpc_planner_group/mpc_planner_2.pdf, id=347, 538.01pt x 333.63838pt>
-File: pictures/mpc_planner_group/mpc_planner_2.pdf Graphic file (type pdf)
-<use pictures/mpc_planner_group/mpc_planner_2.pdf>
-Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_2.pdf  used on 
-input line 92.
-(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
-<pictures/mpc_planner_group/mpc_planner_3.pdf, id=348, 538.01pt x 333.63838pt>
-File: pictures/mpc_planner_group/mpc_planner_3.pdf Graphic file (type pdf)
-<use pictures/mpc_planner_group/mpc_planner_3.pdf>
-Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_3.pdf  used on 
-input line 92.
-(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
-<pictures/mpc_planner_group/mpc_planner_4.pdf, id=349, 538.01pt x 333.63838pt>
-File: pictures/mpc_planner_group/mpc_planner_4.pdf Graphic file (type pdf)
-<use pictures/mpc_planner_group/mpc_planner_4.pdf>
-Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_4.pdf  used on 
-input line 92.
-(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
-<pictures/mpc_planner_group/mpc_planner_5.pdf, id=350, 538.01pt x 333.63838pt>
-File: pictures/mpc_planner_group/mpc_planner_5.pdf Graphic file (type pdf)
-<use pictures/mpc_planner_group/mpc_planner_5.pdf>
-Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_5.pdf  used on 
-input line 92.
-(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
-<pictures/mpc_planner_group/mpc_planner_6.pdf, id=351, 538.01pt x 333.63838pt>
-File: pictures/mpc_planner_group/mpc_planner_6.pdf Graphic file (type pdf)
-<use pictures/mpc_planner_group/mpc_planner_6.pdf>
-Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_6.pdf  used on 
-input line 92.
+input line 99.
 (pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
 
-Overfull \vbox (1440.78685pt too high) detected at line 92
+Overfull \vbox (33.5153pt too high) detected at line 99
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 92.
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 92.
+Package pdftex.def Info: logos/flw.png  used on input line 99.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[15
+[24
 
- <./pictures/mpc_planner_group/mpc_planner_0.pdf> <./pictures/mpc_planner_group
-/mpc_planner_1.pdf
+ <./pictures/mpc_planner_group/mpc_planner_0.pdf>]
+<pictures/mpc_planner_group/mpc_planner_1.pdf, id=454, 538.01pt x 333.63838pt>
+File: pictures/mpc_planner_group/mpc_planner_1.pdf Graphic file (type pdf)
+<use pictures/mpc_planner_group/mpc_planner_1.pdf>
+Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_1.pdf  used on 
+input line 99.
+(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/mpc_planner_group
-/mpc_planner_1.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./pictures/mpc_planner_group/mpc_planner_2.pdf
+Overfull \vbox (33.5153pt too high) detected at line 99
+ []
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/mpc_planner_group
-/mpc_planner_2.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./pictures/mpc_planner_group/mpc_planner_3.pdf
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 99.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[25
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/mpc_planner_group
-/mpc_planner_3.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./pictures/mpc_planner_group/mpc_planner_4.pdf
+ <./pictures/mpc_planner_group/mpc_planner_1.pdf>]
+<pictures/mpc_planner_group/mpc_planner_2.pdf, id=480, 538.01pt x 333.63838pt>
+File: pictures/mpc_planner_group/mpc_planner_2.pdf Graphic file (type pdf)
+<use pictures/mpc_planner_group/mpc_planner_2.pdf>
+Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_2.pdf  used on 
+input line 99.
+(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/mpc_planner_group
-/mpc_planner_4.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./pictures/mpc_planner_group/mpc_planner_5.pdf
+Overfull \vbox (33.5153pt too high) detected at line 99
+ []
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/mpc_planner_group
-/mpc_planner_5.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./pictures/mpc_planner_group/mpc_planner_6.pdf
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 99.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[26
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/mpc_planner_group
-/mpc_planner_6.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->]) (./Kapitel_3.tex
+ <./pictures/mpc_planner_group/mpc_planner_2.pdf>]
+<pictures/mpc_planner_group/mpc_planner_3.pdf, id=505, 538.01pt x 333.63838pt>
+File: pictures/mpc_planner_group/mpc_planner_3.pdf Graphic file (type pdf)
+<use pictures/mpc_planner_group/mpc_planner_3.pdf>
+Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_3.pdf  used on 
+input line 99.
+(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
+
+Overfull \vbox (33.5153pt too high) detected at line 99
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 99.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[27
+
+ <./pictures/mpc_planner_group/mpc_planner_3.pdf>]
+<pictures/mpc_planner_group/mpc_planner_4.pdf, id=530, 538.01pt x 333.63838pt>
+File: pictures/mpc_planner_group/mpc_planner_4.pdf Graphic file (type pdf)
+<use pictures/mpc_planner_group/mpc_planner_4.pdf>
+Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_4.pdf  used on 
+input line 99.
+(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
+
+Overfull \vbox (33.5153pt too high) detected at line 99
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 99.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[28
+
+ <./pictures/mpc_planner_group/mpc_planner_4.pdf>]
+<pictures/mpc_planner_group/mpc_planner_5.pdf, id=555, 538.01pt x 333.63838pt>
+File: pictures/mpc_planner_group/mpc_planner_5.pdf Graphic file (type pdf)
+<use pictures/mpc_planner_group/mpc_planner_5.pdf>
+Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_5.pdf  used on 
+input line 99.
+(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
+
+Overfull \vbox (33.5153pt too high) detected at line 99
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 99.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[29
+
+ <./pictures/mpc_planner_group/mpc_planner_5.pdf>]
+<pictures/mpc_planner_group/mpc_planner_6.pdf, id=580, 538.01pt x 333.63838pt>
+File: pictures/mpc_planner_group/mpc_planner_6.pdf Graphic file (type pdf)
+<use pictures/mpc_planner_group/mpc_planner_6.pdf>
+Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_6.pdf  used on 
+input line 99.
+(pdftex.def)             Requested size: 376.60443pt x 233.54526pt.
+
+Overfull \vbox (33.5153pt too high) detected at line 99
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 99.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 99.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[30
+
+ <./pictures/mpc_planner_group/mpc_planner_6.pdf>]) (./Kapitel_3.tex
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package pdftex.def Info: logos/tu.pdf  used on input line 1.
@@ -2367,67 +2538,68 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 1.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [16
+
+[31
 
 ]
-<pictures/robot_env_group/robot_env-0.png, id=482, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-0.png, id=616, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-0.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-0.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-0.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
- <./pictures/robot_env_group/robot_env-0.png>
-<a1,fr0>
-<pictures/robot_env_group/robot_env-1.png, id=493, 422.0568pt x 275.8305pt>
+ <./pictures/robot_env_group/robot_env-0.png> <a1,fr0>
+<pictures/robot_env_group/robot_env-1.png, id=627, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-1.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-1.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-1.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
  <./pictures/robot_env_group/robot_env-1.png> <a1,fr1>
-<pictures/robot_env_group/robot_env-2.png, id=504, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-2.png, id=638, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-2.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-2.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-2.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
- <./pictures/robot_env_group/robot_env-2.png> <a1,fr2>
-<pictures/robot_env_group/robot_env-3.png, id=515, 422.0568pt x 275.8305pt>
+ <./pictures/robot_env_group/robot_env-2.png>
+<a1,fr2>
+<pictures/robot_env_group/robot_env-3.png, id=649, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-3.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-3.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-3.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
  <./pictures/robot_env_group/robot_env-3.png> <a1,fr3>
-<pictures/robot_env_group/robot_env-4.png, id=526, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-4.png, id=660, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-4.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-4.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-4.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
  <./pictures/robot_env_group/robot_env-4.png> <a1,fr4>
-<pictures/robot_env_group/robot_env-5.png, id=537, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-5.png, id=671, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-5.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-5.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-5.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
  <./pictures/robot_env_group/robot_env-5.png> <a1,fr5>
-<pictures/robot_env_group/robot_env-6.png, id=548, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-6.png, id=682, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-6.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-6.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-6.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
  <./pictures/robot_env_group/robot_env-6.png> <a1,fr6>
-<pictures/robot_env_group/robot_env-7.png, id=559, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-7.png, id=693, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-7.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-7.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-7.png  used on inpu
 t line 18.
 (pdftex.def)             Requested size: 422.05576pt x 275.82982pt.
  <./pictures/robot_env_group/robot_env-7.png> <a1,fr7>
-<pictures/robot_env_group/robot_env-8.png, id=570, 422.0568pt x 275.8305pt>
+<pictures/robot_env_group/robot_env-8.png, id=704, 422.0568pt x 275.8305pt>
 File: pictures/robot_env_group/robot_env-8.png Graphic file (type png)
 <use pictures/robot_env_group/robot_env-8.png>
 Package pdftex.def Info: pictures/robot_env_group/robot_env-8.png  used on inpu
@@ -2442,10 +2614,10 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 18.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [17
+ [32
 
 ]
-<pictures/laser_ranges.pdf, id=606, 229.75502pt x 173.13348pt>
+<pictures/laser_ranges.pdf, id=740, 229.75502pt x 173.13348pt>
 File: pictures/laser_ranges.pdf Graphic file (type pdf)
 <use pictures/laser_ranges.pdf>
 Package pdftex.def Info: pictures/laser_ranges.pdf  used on input line 47.
@@ -2455,7 +2627,77 @@ Overfull \hbox (6.99947pt too wide) detected at line 47
 []\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 k\OT1/cmr/m/n/9 ) = []
  []
 
-<pictures/robot_laser.pdf, id=607, 453.00385pt x 355.73524pt>
+<pictures/robot_laser.pdf, id=741, 453.00385pt x 355.73524pt>
+File: pictures/robot_laser.pdf Graphic file (type pdf)
+<use pictures/robot_laser.pdf>
+Package pdftex.def Info: pictures/robot_laser.pdf  used on input line 47.
+(pdftex.def)             Requested size: 231.0289pt x 181.42256pt.
+
+Overfull \hbox (9.90018pt too wide) in paragraph at lines 47--47
+ [][][] 
+ []
+
+
+Overfull \vbox (3.42088pt too high) detected at line 47
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 47.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 47.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[33
+
+ <./pictures/laser_ranges.pdf> <./pictures/robot_laser.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/robot_laser.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+File: pictures/laser_ranges.pdf Graphic file (type pdf)
+<use pictures/laser_ranges.pdf>
+Package pdftex.def Info: pictures/laser_ranges.pdf  used on input line 47.
+(pdftex.def)             Requested size: 103.3888pt x 77.90933pt.
+
+Overfull \hbox (6.99947pt too wide) detected at line 47
+[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 k\OT1/cmr/m/n/9 ) = []
+ []
+
+File: pictures/robot_laser.pdf Graphic file (type pdf)
+<use pictures/robot_laser.pdf>
+Package pdftex.def Info: pictures/robot_laser.pdf  used on input line 47.
+(pdftex.def)             Requested size: 231.0289pt x 181.42256pt.
+
+Overfull \hbox (9.90018pt too wide) in paragraph at lines 47--47
+ [][][] 
+ []
+
+
+Overfull \vbox (3.42088pt too high) detected at line 47
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 47.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 47.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[34
+
+]
+File: pictures/laser_ranges.pdf Graphic file (type pdf)
+<use pictures/laser_ranges.pdf>
+Package pdftex.def Info: pictures/laser_ranges.pdf  used on input line 47.
+(pdftex.def)             Requested size: 103.3888pt x 77.90933pt.
+
+Overfull \hbox (6.99947pt too wide) detected at line 47
+[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 k\OT1/cmr/m/n/9 ) = []
+ []
+
 File: pictures/robot_laser.pdf Graphic file (type pdf)
 <use pictures/robot_laser.pdf>
 Package pdftex.def Info: pictures/robot_laser.pdf  used on input line 47.
@@ -2477,16 +2719,12 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 47.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[18
+[35
 
- <./pictures/laser_ranges.pdf> <./pictures/robot_laser.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/robot_laser.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
->]
+]
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 6.0pt on input line 86.
-<pictures/laser_robot_frame.pdf, id=643, 274.9368pt x 162.97226pt>
+<pictures/laser_robot_frame.pdf, id=793, 274.9368pt x 162.97226pt>
 File: pictures/laser_robot_frame.pdf Graphic file (type pdf)
 <use pictures/laser_robot_frame.pdf>
 Package pdftex.def Info: pictures/laser_robot_frame.pdf  used on input line 86.
@@ -2509,9 +2747,81 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 86.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[19
+[36
 
  <./pictures/laser_robot_frame.pdf>]
+File: pictures/laser_robot_frame.pdf Graphic file (type pdf)
+<use pictures/laser_robot_frame.pdf>
+Package pdftex.def Info: pictures/laser_robot_frame.pdf  used on input line 86.
+
+(pdftex.def)             Requested size: 247.44081pt x 146.67366pt.
+
+Overfull \hbox (13.55528pt too wide) in paragraph at lines 86--86
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.23378pt too high) detected at line 86
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 86.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 86.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[37
+
+]
+File: pictures/laser_robot_frame.pdf Graphic file (type pdf)
+<use pictures/laser_robot_frame.pdf>
+Package pdftex.def Info: pictures/laser_robot_frame.pdf  used on input line 86.
+
+(pdftex.def)             Requested size: 247.44081pt x 146.67366pt.
+
+Overfull \hbox (13.55528pt too wide) in paragraph at lines 86--86
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.23378pt too high) detected at line 86
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 86.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 86.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[38
+
+]
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <6> not available
+
+(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on in
+put line 127.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 127.
+<pictures/robotnik.pdf, id=827, 410.9925pt x 293.17973pt>
+File: pictures/robotnik.pdf Graphic file (type pdf)
+<use pictures/robotnik.pdf>
+Package pdftex.def Info: pictures/robotnik.pdf  used on input line 127.
+(pdftex.def)             Requested size: 205.49573pt x 146.5895pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 127.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 127.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [39
+
+ <./pictures/robotnik.pdf>]
 Package epstopdf Info: Source file: <pictures/intial_map.eps>
 (epstopdf)                    date: 2019-09-10 19:57:23
 (epstopdf)                    size: 236640 bytes
@@ -2520,53 +2830,53 @@ Package epstopdf Info: Source file: <pictures/intial_map.eps>
 (epstopdf)                    size: 309823 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/intial_map-eps-co
 nverted-to.pdf pictures/intial_map.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/intial_map-eps-converted-to.pdf, id=661, 705.354pt x 438.27895pt>
+<pictures/intial_map-eps-converted-to.pdf, id=858, 705.354pt x 438.27895pt>
 File: pictures/intial_map-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/intial_map-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/intial_map-eps-converted-to.pdf  used on inpu
-t line 92.
+t line 133.
 (pdftex.def)             Requested size: 324.46678pt x 201.61075pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 92.
+Package pdftex.def Info: logos/tu.pdf  used on input line 133.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 92.
+Package pdftex.def Info: logos/flw.png  used on input line 133.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [20
+ [40
 
  <./pictures/intial_map-eps-converted-to.pdf, page is rotated 270 degrees>]
-<pictures/lsellipse1.pdf, id=694, 186.20247pt x 147.76569pt>
+<pictures/lsellipse1.pdf, id=892, 186.20247pt x 147.76569pt>
 File: pictures/lsellipse1.pdf Graphic file (type pdf)
 <use pictures/lsellipse1.pdf>
-Package pdftex.def Info: pictures/lsellipse1.pdf  used on input line 130.
+Package pdftex.def Info: pictures/lsellipse1.pdf  used on input line 171.
 (pdftex.def)             Requested size: 121.03017pt x 96.04655pt.
-<pictures/lsellipse2.pdf, id=695, 188.98157pt x 149.64836pt>
+<pictures/lsellipse2.pdf, id=893, 188.98157pt x 149.64836pt>
 File: pictures/lsellipse2.pdf Graphic file (type pdf)
 <use pictures/lsellipse2.pdf>
-Package pdftex.def Info: pictures/lsellipse2.pdf  used on input line 130.
+Package pdftex.def Info: pictures/lsellipse2.pdf  used on input line 171.
 (pdftex.def)             Requested size: 122.83655pt x 97.27028pt.
-<pictures/lsellipse3.pdf, id=696, 189.4063pt x 149.4786pt>
+<pictures/lsellipse3.pdf, id=894, 189.4063pt x 149.4786pt>
 File: pictures/lsellipse3.pdf Graphic file (type pdf)
 <use pictures/lsellipse3.pdf>
-Package pdftex.def Info: pictures/lsellipse3.pdf  used on input line 130.
+Package pdftex.def Info: pictures/lsellipse3.pdf  used on input line 171.
 (pdftex.def)             Requested size: 123.11263pt x 97.15993pt.
 
-Overfull \vbox (0.78163pt too high) detected at line 130
+Overfull \vbox (0.78163pt too high) detected at line 171
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 130.
+Package pdftex.def Info: logos/tu.pdf  used on input line 171.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 130.
+Package pdftex.def Info: logos/flw.png  used on input line 171.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[21
+[41
 
  <./pictures/lsellipse1.pdf> <./pictures/lsellipse2.pdf
 
@@ -2577,6 +2887,87 @@ PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/lsellipse3.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
+File: pictures/lsellipse1.pdf Graphic file (type pdf)
+<use pictures/lsellipse1.pdf>
+Package pdftex.def Info: pictures/lsellipse1.pdf  used on input line 171.
+(pdftex.def)             Requested size: 121.03017pt x 96.04655pt.
+File: pictures/lsellipse2.pdf Graphic file (type pdf)
+<use pictures/lsellipse2.pdf>
+Package pdftex.def Info: pictures/lsellipse2.pdf  used on input line 171.
+(pdftex.def)             Requested size: 122.83655pt x 97.27028pt.
+File: pictures/lsellipse3.pdf Graphic file (type pdf)
+<use pictures/lsellipse3.pdf>
+Package pdftex.def Info: pictures/lsellipse3.pdf  used on input line 171.
+(pdftex.def)             Requested size: 123.11263pt x 97.15993pt.
+
+Overfull \vbox (0.78163pt too high) detected at line 171
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 171.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 171.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[42
+
+]
+File: pictures/lsellipse1.pdf Graphic file (type pdf)
+<use pictures/lsellipse1.pdf>
+Package pdftex.def Info: pictures/lsellipse1.pdf  used on input line 171.
+(pdftex.def)             Requested size: 121.03017pt x 96.04655pt.
+File: pictures/lsellipse2.pdf Graphic file (type pdf)
+<use pictures/lsellipse2.pdf>
+Package pdftex.def Info: pictures/lsellipse2.pdf  used on input line 171.
+(pdftex.def)             Requested size: 122.83655pt x 97.27028pt.
+File: pictures/lsellipse3.pdf Graphic file (type pdf)
+<use pictures/lsellipse3.pdf>
+Package pdftex.def Info: pictures/lsellipse3.pdf  used on input line 171.
+(pdftex.def)             Requested size: 123.11263pt x 97.15993pt.
+
+Overfull \vbox (0.78163pt too high) detected at line 171
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 171.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 171.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[43
+
+]
+File: pictures/lsellipse1.pdf Graphic file (type pdf)
+<use pictures/lsellipse1.pdf>
+Package pdftex.def Info: pictures/lsellipse1.pdf  used on input line 171.
+(pdftex.def)             Requested size: 121.03017pt x 96.04655pt.
+File: pictures/lsellipse2.pdf Graphic file (type pdf)
+<use pictures/lsellipse2.pdf>
+Package pdftex.def Info: pictures/lsellipse2.pdf  used on input line 171.
+(pdftex.def)             Requested size: 122.83655pt x 97.27028pt.
+File: pictures/lsellipse3.pdf Graphic file (type pdf)
+<use pictures/lsellipse3.pdf>
+Package pdftex.def Info: pictures/lsellipse3.pdf  used on input line 171.
+(pdftex.def)             Requested size: 123.11263pt x 97.15993pt.
+
+Overfull \vbox (0.78163pt too high) detected at line 171
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 171.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 171.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[44
+
+]
 Package epstopdf Info: Source file: <pictures/map_clustered.eps>
 (epstopdf)                    date: 2019-10-10 23:35:03
 (epstopdf)                    size: 12518461 bytes
@@ -2586,62 +2977,102 @@ f>
 (epstopdf)                    size: 1239030 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/map_clustered-eps
 -converted-to.pdf pictures/map_clustered.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/map_clustered-eps-converted-to.pdf, id=774, 2668.5353pt x 1530.85548p
+<pictures/map_clustered-eps-converted-to.pdf, id=997, 2668.5353pt x 1530.85548p
 t>
 File: pictures/map_clustered-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/map_clustered-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/map_clustered-eps-converted-to.pdf  used on i
-nput line 136.
+nput line 177.
 (pdftex.def)             Requested size: 346.92177pt x 199.0182pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 136.
+Package pdftex.def Info: logos/tu.pdf  used on input line 177.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 136.
+Package pdftex.def Info: logos/flw.png  used on input line 177.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [22
+ [45
 
  <./pictures/map_clustered-eps-converted-to.pdf>]
-<pictures/robot_env_diff.pdf, id=846, 357.13237pt x 203.99431pt>
+<pictures/robot_env_diff.pdf, id=1069, 357.13237pt x 203.99431pt>
 File: pictures/robot_env_diff.pdf Graphic file (type pdf)
 <use pictures/robot_env_diff.pdf>
-Package pdftex.def Info: pictures/robot_env_diff.pdf  used on input line 179.
+Package pdftex.def Info: pictures/robot_env_diff.pdf  used on input line 220.
 (pdftex.def)             Requested size: 249.99094pt x 142.79503pt.
 
-Overfull \hbox (11.8553pt too wide) in paragraph at lines 179--179
+Overfull \hbox (11.8553pt too wide) in paragraph at lines 220--220
  [][][][] 
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 179.
+Package pdftex.def Info: logos/tu.pdf  used on input line 220.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 179.
+Package pdftex.def Info: logos/flw.png  used on input line 220.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[23
+[46
 
  <./pictures/robot_env_diff.pdf>]
-<pictures/block_diagram_obst_1.pdf, id=872, 426.63388pt x 166.7028pt>
+File: pictures/robot_env_diff.pdf Graphic file (type pdf)
+<use pictures/robot_env_diff.pdf>
+Package pdftex.def Info: pictures/robot_env_diff.pdf  used on input line 220.
+(pdftex.def)             Requested size: 249.99094pt x 142.79503pt.
+
+Overfull \hbox (11.8553pt too wide) in paragraph at lines 220--220
+ [][][][] 
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 220.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 220.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[47
+
+]
+File: pictures/robot_env_diff.pdf Graphic file (type pdf)
+<use pictures/robot_env_diff.pdf>
+Package pdftex.def Info: pictures/robot_env_diff.pdf  used on input line 220.
+(pdftex.def)             Requested size: 249.99094pt x 142.79503pt.
+
+Overfull \hbox (11.8553pt too wide) in paragraph at lines 220--220
+ [][][][] 
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 220.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 220.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[48
+
+]
+<pictures/block_diagram_obst_1.pdf, id=1111, 426.63388pt x 166.7028pt>
 File: pictures/block_diagram_obst_1.pdf Graphic file (type pdf)
 <use pictures/block_diagram_obst_1.pdf>
 Package pdftex.def Info: pictures/block_diagram_obst_1.pdf  used on input line 
-185.
+226.
 (pdftex.def)             Requested size: 383.96693pt x 150.03111pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 185.
+Package pdftex.def Info: logos/tu.pdf  used on input line 226.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 185.
+Package pdftex.def Info: logos/flw.png  used on input line 226.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [24
+ [49
 
  <./pictures/block_diagram_obst_1.pdf
 
@@ -2657,10 +3088,11 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 1.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [25
+ [50
 
 ]
-<pictures/mpc_planner_group/mpc_planner_8.pdf, id=906, 538.01pt x 333.63838pt>
+<pictures/mpc_planner_group/mpc_planner_8.pdf, id=1145, 538.01pt x 333.63838pt>
+
 File: pictures/mpc_planner_group/mpc_planner_8.pdf Graphic file (type pdf)
 <use pictures/mpc_planner_group/mpc_planner_8.pdf>
 Package pdftex.def Info: pictures/mpc_planner_group/mpc_planner_8.pdf  used on 
@@ -2678,10 +3110,10 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 6.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[26
+[51
 
  <./pictures/mpc_planner_group/mpc_planner_8.pdf>]
-<pictures/robot_cart.pdf, id=932, 569.82086pt x 501.4277pt>
+<pictures/robot_cart.pdf, id=1171, 569.82086pt x 501.4277pt>
 File: pictures/robot_cart.pdf Graphic file (type pdf)
 <use pictures/robot_cart.pdf>
 Package pdftex.def Info: pictures/robot_cart.pdf  used on input line 66.
@@ -2694,10 +3126,40 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 66.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [27
+ [52
 
  <./pictures/robot_cart.pdf>]
-<pictures/robot_polar.pdf, id=983, 569.82086pt x 501.4277pt>
+File: pictures/robot_cart.pdf Graphic file (type pdf)
+<use pictures/robot_cart.pdf>
+Package pdftex.def Info: pictures/robot_cart.pdf  used on input line 66.
+(pdftex.def)             Requested size: 199.44028pt x 175.50232pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 66.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 66.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [53
+
+]
+File: pictures/robot_cart.pdf Graphic file (type pdf)
+<use pictures/robot_cart.pdf>
+Package pdftex.def Info: pictures/robot_cart.pdf  used on input line 66.
+(pdftex.def)             Requested size: 199.44028pt x 175.50232pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 66.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 66.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [54
+
+]
+<pictures/robot_polar.pdf, id=1238, 569.82086pt x 501.4277pt>
 File: pictures/robot_polar.pdf Graphic file (type pdf)
 <use pictures/robot_polar.pdf>
 Package pdftex.def Info: pictures/robot_polar.pdf  used on input line 87.
@@ -2710,9 +3172,24 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 87.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [28
+ [55
 
  <./pictures/robot_polar.pdf>]
+File: pictures/robot_polar.pdf Graphic file (type pdf)
+<use pictures/robot_polar.pdf>
+Package pdftex.def Info: pictures/robot_polar.pdf  used on input line 87.
+(pdftex.def)             Requested size: 199.44028pt x 175.50232pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 87.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 87.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [56
+
+]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package pdftex.def Info: logos/tu.pdf  used on input line 147.
@@ -2721,7 +3198,85 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 147.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [29
+ [57
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [58
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [59
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+
+[60
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [61
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [62
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [63
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 147.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [64
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
@@ -2732,10 +3287,54 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 212.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [30
+ [65
 
 ]
-<pictures/robots_pot_coll.pdf, id=1054, 325.70903pt x 297.48798pt>
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 212.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 212.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [66
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 212.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 212.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [67
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 212.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 212.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [68
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 212.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 212.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [69
+
+]
+<pictures/robots_pot_coll.pdf, id=1409, 325.70903pt x 297.48798pt>
 File: pictures/robots_pot_coll.pdf Graphic file (type pdf)
 <use pictures/robots_pot_coll.pdf>
 Package pdftex.def Info: pictures/robots_pot_coll.pdf  used on input line 218.
@@ -2748,10 +3347,10 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 218.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [31
+ [70
 
  <./pictures/robots_pot_coll.pdf>]
-<pictures/block_diagram_cart.pdf, id=1097, 533.1117pt x 210.7875pt>
+<pictures/block_diagram_cart.pdf, id=1451, 533.1117pt x 210.7875pt>
 File: pictures/block_diagram_cart.pdf Graphic file (type pdf)
 <use pictures/block_diagram_cart.pdf>
 Package pdftex.def Info: pictures/block_diagram_cart.pdf  used on input line 22
@@ -2771,7 +3370,7 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 227.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [32
+ [71
 
  <./pictures/block_diagram_cart.pdf
 
@@ -2787,10 +3386,10 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 253.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [33
+ [72
 
 ]
-<pictures/block_diagram_polar.pdf, id=1129, 677.65169pt x 210.7875pt>
+<pictures/block_diagram_polar.pdf, id=1483, 677.65169pt x 210.7875pt>
 File: pictures/block_diagram_polar.pdf Graphic file (type pdf)
 <use pictures/block_diagram_polar.pdf>
 Package pdftex.def Info: pictures/block_diagram_polar.pdf  used on input line 2
@@ -2809,7 +3408,7 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 262.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[34
+[73
 
  <./pictures/block_diagram_polar.pdf
 
@@ -2817,7 +3416,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/block_diagram_pol
 ar.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
 , type <array>); ignored.
 >]
-<pictures/block_diagram_kino.pdf, id=1158, 675.48357pt x 210.7875pt>
+<pictures/block_diagram_kino.pdf, id=1513, 675.48357pt x 210.7875pt>
 File: pictures/block_diagram_kino.pdf Graphic file (type pdf)
 <use pictures/block_diagram_kino.pdf>
 Package pdftex.def Info: pictures/block_diagram_kino.pdf  used on input line 27
@@ -2836,46 +3435,13 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 271.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[35
+[74
 
  <./pictures/block_diagram_kino.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/block_diagram_kin
 o.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets',
  type <array>); ignored.
->]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 326.
-(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
-File: logos/flw.png Graphic file (type png)
-<use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 326.
-(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [36
-
-]
-<pictures/block_diagram_polar_switch_1.pdf, id=1196, 653.56169pt x 221.8689pt>
-File: pictures/block_diagram_polar_switch_1.pdf Graphic file (type pdf)
-<use pictures/block_diagram_polar_switch_1.pdf>
-Package pdftex.def Info: pictures/block_diagram_polar_switch_1.pdf  used on inp
-ut line 335.
-(pdftex.def)             Requested size: 424.81006pt x 144.21306pt.
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 335.
-(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
-File: logos/flw.png Graphic file (type png)
-<use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 335.
-(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [37
-
- <./pictures/block_diagram_polar_switch_1.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/block_diagram_pol
-ar_switch_1.pdf): PDF inclusion: invalid other resource which is no dict (key '
-ProcSets', type <array>); ignored.
 >]) (./Kapitel_5.tex
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
@@ -2885,7 +3451,7 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 1.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [38
+ [75
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
@@ -2896,48 +3462,7 @@ File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
 Package pdftex.def Info: logos/flw.png  used on input line 32.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [39
-
-]
-<pictures/robotnik.pdf, id=1245, 410.9925pt x 293.17973pt>
-File: pictures/robotnik.pdf Graphic file (type pdf)
-<use pictures/robotnik.pdf>
-Package pdftex.def Info: pictures/robotnik.pdf  used on input line 41.
-(pdftex.def)             Requested size: 246.59738pt x 175.90918pt.
-
-Overfull \vbox (4.87923pt too high) detected at line 41
- []
-
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 41.
-(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
-File: logos/flw.png Graphic file (type png)
-<use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 41.
-(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[40
-
- <./pictures/robotnik.pdf>]
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' in size <6> not available
-
-(Font)              Font shape `OT1/FiraSans-OsF/regular/n' tried instead on in
-put line 88.
-LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 88.
-
-Overfull \vbox (4.90776pt too high) detected at line 88
- []
-
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 88.
-(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
-File: logos/flw.png Graphic file (type png)
-<use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 88.
-(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[41
+ [76
 
 ]
 Package epstopdf Info: Source file: <pictures/estimate.eps>
@@ -2948,57 +3473,58 @@ Package epstopdf Info: Source file: <pictures/estimate.eps>
 (epstopdf)                    size: 29775 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/estimate-eps-conv
 erted-to.pdf pictures/estimate.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/estimate-eps-converted-to.pdf, id=1284, 722.7pt x 425.59pt>
+<pictures/estimate-eps-converted-to.pdf, id=1562, 722.7pt x 425.59pt>
 File: pictures/estimate-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/estimate-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/estimate-eps-converted-to.pdf  used on input 
-line 97.
+line 41.
 (pdftex.def)             Requested size: 289.07487pt x 170.23297pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 97.
+Package pdftex.def Info: logos/tu.pdf  used on input line 41.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 97.
+Package pdftex.def Info: logos/flw.png  used on input line 41.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [42
+ [77
 
  <./pictures/estimate-eps-converted-to.pdf>]
-<pictures/kalman_filter_2.png, id=1312, 1284.8pt x 646.415pt>
+<pictures/kalman_filter_2.png, id=1590, 1284.8pt x 646.415pt>
 File: pictures/kalman_filter_2.png Graphic file (type png)
 <use pictures/kalman_filter_2.png>
-Package pdftex.def Info: pictures/kalman_filter_2.png  used on input line 104.
+Package pdftex.def Info: pictures/kalman_filter_2.png  used on input line 48.
 (pdftex.def)             Requested size: 382.71707pt x 192.55496pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 104.
+Package pdftex.def Info: logos/tu.pdf  used on input line 48.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 104.
+Package pdftex.def Info: logos/flw.png  used on input line 48.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [43
+
+[78
 
  <./pictures/kalman_filter_2.png>]
-<pictures/path.png, id=1324, 747.79375pt x 803.0pt>
-File: pictures/path.png Graphic file (type png)
-<use pictures/path.png>
-Package pdftex.def Info: pictures/path.png  used on input line 111.
-(pdftex.def)             Requested size: 178.60173pt x 191.78047pt.
+<pictures/eperiments_1.pdf, id=1601, 533.1117pt x 256.0767pt>
+File: pictures/eperiments_1.pdf Graphic file (type pdf)
+<use pictures/eperiments_1.pdf>
+Package pdftex.def Info: pictures/eperiments_1.pdf  used on input line 53.
+(pdftex.def)             Requested size: 373.17563pt x 179.25247pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 111.
+Package pdftex.def Info: logos/tu.pdf  used on input line 53.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 111.
+Package pdftex.def Info: logos/flw.png  used on input line 53.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [44
+ [79
 
- <./pictures/path.png>]
+ <./pictures/eperiments_1.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn1_states.eps>
 (epstopdf)                    date: 2019-09-14 18:05:06
 (epstopdf)                    size: 263008 bytes
@@ -3008,28 +3534,28 @@ o.pdf>
 (epstopdf)                    size: 31696 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn1_states
 -eps-converted-to.pdf pictures/graphs/sn1_states.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn1_states-eps-converted-to.pdf, id=1335, 724.21703pt x 396.86
+<pictures/graphs/sn1_states-eps-converted-to.pdf, id=1633, 724.21703pt x 396.86
 017pt>
 File: pictures/graphs/sn1_states-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/graphs/sn1_states-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn1_states-eps-converted-to.pdf  used 
-on input line 120.
+on input line 62.
 (pdftex.def)             Requested size: 325.89465pt x 178.58542pt.
 
-Overfull \vbox (5.51048pt too high) detected at line 120
+Overfull \vbox (7.55547pt too high) detected at line 62
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 120.
+Package pdftex.def Info: logos/tu.pdf  used on input line 62.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 120.
+Package pdftex.def Info: logos/flw.png  used on input line 62.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[45
+[80
 
  <./pictures/graphs/sn1_states-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn1_inputs.eps>
@@ -3041,28 +3567,28 @@ o.pdf>
 (epstopdf)                    size: 15451 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn1_inputs
 -eps-converted-to.pdf pictures/graphs/sn1_inputs.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn1_inputs-eps-converted-to.pdf, id=1365, 717.51915pt x 423.88
+<pictures/graphs/sn1_inputs-eps-converted-to.pdf, id=1663, 717.51915pt x 423.88
 99pt>
 File: pictures/graphs/sn1_inputs-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/graphs/sn1_inputs-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn1_inputs-eps-converted-to.pdf  used 
-on input line 129.
+on input line 71.
 (pdftex.def)             Requested size: 301.35599pt x 178.03253pt.
 
-Overfull \vbox (4.9576pt too high) detected at line 129
+Overfull \vbox (7.00258pt too high) detected at line 71
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 129.
+Package pdftex.def Info: logos/tu.pdf  used on input line 71.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 129.
+Package pdftex.def Info: logos/flw.png  used on input line 71.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[46
+[81
 
  <./pictures/graphs/sn1_inputs-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn1_solver_time.eps>
@@ -3074,27 +3600,43 @@ ted-to.pdf>
 (epstopdf)                    size: 14200 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn1_solver
 _time-eps-converted-to.pdf pictures/graphs/sn1_solver_time.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn1_solver_time-eps-converted-to.pdf, id=1388, 727.45624pt x 2
+<pictures/graphs/sn1_solver_time-eps-converted-to.pdf, id=1686, 727.45624pt x 2
 04.26062pt>
 File: pictures/graphs/sn1_solver_time-eps-converted-to.pdf Graphic file (type p
 df)
 <use pictures/graphs/sn1_solver_time-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn1_solver_time-eps-converted-to.pdf  
-used on input line 138.
+used on input line 80.
 (pdftex.def)             Requested size: 305.52954pt x 85.78886pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 138.
+Package pdftex.def Info: logos/tu.pdf  used on input line 80.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 138.
+Package pdftex.def Info: logos/flw.png  used on input line 80.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [47
+ [82
 
  <./pictures/graphs/sn1_solver_time-eps-converted-to.pdf>]
+<pictures/eperiments_2.pdf, id=1710, 533.1117pt x 256.0767pt>
+File: pictures/eperiments_2.pdf Graphic file (type pdf)
+<use pictures/eperiments_2.pdf>
+Package pdftex.def Info: pictures/eperiments_2.pdf  used on input line 85.
+(pdftex.def)             Requested size: 373.17563pt x 179.25247pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 85.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 85.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [83
+
+ <./pictures/eperiments_2.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn1_states_2.eps>
 (epstopdf)                    date: 2019-09-16 22:29:49
 (epstopdf)                    size: 334862 bytes
@@ -3104,29 +3646,29 @@ Package epstopdf Info: Source file: <pictures/graphs/sn1_states_2.eps>
 (epstopdf)                    size: 270200 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn1_states
 _2-eps-converted-to.pdf pictures/graphs/sn1_states_2.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn1_states_2-eps-converted-to.pdf, id=1411, 781.92125pt x 419.
+<pictures/graphs/sn1_states_2-eps-converted-to.pdf, id=1741, 781.92125pt x 419.
 5675pt>
 File: pictures/graphs/sn1_states_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/graphs/sn1_states_2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn1_states_2-eps-converted-to.pdf  use
-d on input line 147.
+d on input line 94.
 (pdftex.def)             Requested size: 344.04642pt x 184.61026pt.
 
-Overfull \vbox (11.53532pt too high) detected at line 147
+Overfull \vbox (13.5803pt too high) detected at line 94
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 147.
+Package pdftex.def Info: logos/tu.pdf  used on input line 94.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 147.
+Package pdftex.def Info: logos/flw.png  used on input line 94.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[48
+[84
 
  <./pictures/graphs/sn1_states_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn1_inputs_2.eps>
@@ -3138,29 +3680,29 @@ Package epstopdf Info: Source file: <pictures/graphs/sn1_inputs_2.eps>
 (epstopdf)                    size: 14369 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn1_inputs
 _2-eps-converted-to.pdf pictures/graphs/sn1_inputs_2.eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn1_inputs_2-eps-converted-to.pdf, id=1445, 717.51915pt x 426.
+<pictures/graphs/sn1_inputs_2-eps-converted-to.pdf, id=1775, 717.51915pt x 426.
 14833pt>
 File: pictures/graphs/sn1_inputs_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/graphs/sn1_inputs_2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn1_inputs_2-eps-converted-to.pdf  use
-d on input line 156.
+d on input line 103.
 (pdftex.def)             Requested size: 301.35599pt x 178.98106pt.
 
-Overfull \vbox (5.90613pt too high) detected at line 156
+Overfull \vbox (7.95111pt too high) detected at line 103
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 156.
+Package pdftex.def Info: logos/tu.pdf  used on input line 103.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 156.
+Package pdftex.def Info: logos/flw.png  used on input line 103.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[49
+[85
 
  <./pictures/graphs/sn1_inputs_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn1_solver_time_2.eps>
@@ -3172,27 +3714,43 @@ erted-to.pdf>
 (epstopdf)                    size: 23391 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn1_solver
 _time_2-eps-converted-to.pdf pictures/graphs/sn1_solver_time_2.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn1_solver_time_2-eps-converted-to.pdf, id=1469, 727.71875pt x
+<pictures/graphs/sn1_solver_time_2-eps-converted-to.pdf, id=1799, 727.71875pt x
  205.76875pt>
 File: pictures/graphs/sn1_solver_time_2-eps-converted-to.pdf Graphic file (type
  pdf)
 <use pictures/graphs/sn1_solver_time_2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn1_solver_time_2-eps-converted-to.pdf
-  used on input line 165.
+  used on input line 112.
 (pdftex.def)             Requested size: 305.63979pt x 86.42227pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 165.
+Package pdftex.def Info: logos/tu.pdf  used on input line 112.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 165.
+Package pdftex.def Info: logos/flw.png  used on input line 112.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [50
+ [86
 
  <./pictures/graphs/sn1_solver_time_2-eps-converted-to.pdf>]
+<pictures/eperiments_3.pdf, id=1820, 533.1117pt x 256.0767pt>
+File: pictures/eperiments_3.pdf Graphic file (type pdf)
+<use pictures/eperiments_3.pdf>
+Package pdftex.def Info: pictures/eperiments_3.pdf  used on input line 117.
+(pdftex.def)             Requested size: 373.17563pt x 179.25247pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 117.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 117.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [87
+
+ <./pictures/eperiments_3.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn2_states.eps>
 (epstopdf)                    date: 2019-10-14 19:07:46
 (epstopdf)                    size: 255247 bytes
@@ -3202,28 +3760,28 @@ o.pdf>
 (epstopdf)                    size: 26148 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn2_states
 -eps-converted-to.pdf pictures/graphs/sn2_states.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn2_states-eps-converted-to.pdf, id=1490, 786.12292pt x 416.05
+<pictures/graphs/sn2_states-eps-converted-to.pdf, id=1851, 786.12292pt x 416.05
 688pt>
 File: pictures/graphs/sn2_states-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/graphs/sn2_states-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn2_states-eps-converted-to.pdf  used 
-on input line 174.
+on input line 126.
 (pdftex.def)             Requested size: 345.89516pt x 183.06558pt.
 
-Overfull \vbox (9.99065pt too high) detected at line 174
+Overfull \vbox (9.99065pt too high) detected at line 126
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 174.
+Package pdftex.def Info: logos/tu.pdf  used on input line 126.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 174.
+Package pdftex.def Info: logos/flw.png  used on input line 126.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[51
+[88
 
  <./pictures/graphs/sn2_states-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn2_inputs.eps>
@@ -3235,28 +3793,28 @@ o.pdf>
 (epstopdf)                    size: 12736 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn2_inputs
 -eps-converted-to.pdf pictures/graphs/sn2_inputs.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn2_inputs-eps-converted-to.pdf, id=1520, 722.03603pt x 421.63
+<pictures/graphs/sn2_inputs-eps-converted-to.pdf, id=1881, 722.03603pt x 421.63
 145pt>
 File: pictures/graphs/sn2_inputs-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/graphs/sn2_inputs-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn2_inputs-eps-converted-to.pdf  used 
-on input line 183.
+on input line 135.
 (pdftex.def)             Requested size: 303.25307pt x 177.084pt.
 
-Overfull \vbox (4.00906pt too high) detected at line 183
+Overfull \vbox (4.00906pt too high) detected at line 135
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 183.
+Package pdftex.def Info: logos/tu.pdf  used on input line 135.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 183.
+Package pdftex.def Info: logos/flw.png  used on input line 135.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[52
+[89
 
  <./pictures/graphs/sn2_inputs-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn2_solver_time.eps>
@@ -3268,27 +3826,257 @@ ted-to.pdf>
 (epstopdf)                    size: 11980 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn2_solver
 _time-eps-converted-to.pdf pictures/graphs/sn2_solver_time.eps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn2_solver_time-eps-converted-to.pdf, id=1543, 733.47873pt x 2
+<pictures/graphs/sn2_solver_time-eps-converted-to.pdf, id=1904, 733.47873pt x 2
 02.00218pt>
 File: pictures/graphs/sn2_solver_time-eps-converted-to.pdf Graphic file (type p
 df)
 <use pictures/graphs/sn2_solver_time-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn2_solver_time-eps-converted-to.pdf  
-used on input line 192.
+used on input line 144.
 (pdftex.def)             Requested size: 308.05896pt x 84.84033pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 192.
+Package pdftex.def Info: logos/tu.pdf  used on input line 144.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 192.
+Package pdftex.def Info: logos/flw.png  used on input line 144.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [53
+ [90
 
  <./pictures/graphs/sn2_solver_time-eps-converted-to.pdf>]
+<pictures/eperiments.pdf, id=1927, 533.1117pt x 256.07669pt>
+File: pictures/eperiments.pdf Graphic file (type pdf)
+<use pictures/eperiments.pdf>
+Package pdftex.def Info: pictures/eperiments.pdf  used on input line 149.
+(pdftex.def)             Requested size: 373.17563pt x 179.25246pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 149.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 149.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [91
+
+ <./pictures/eperiments.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/eperiments.pdf): 
+PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <a
+rray>); ignored.
+>]
+Package epstopdf Info: Source file: <pictures/graphs/sn3_states_1.eps>
+(epstopdf)                    date: 2019-10-14 23:23:59
+(epstopdf)                    size: 238337 bytes
+(epstopdf)             Output file: <pictures/graphs/sn3_states_1-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-10-14 23:26:39
+(epstopdf)                    size: 24613 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn3_states
+_1-eps-converted-to.pdf pictures/graphs/sn3_states_1.eps>
+(epstopdf)             \includegraphics on input line 158.
+Package epstopdf Info: Output file is already uptodate.
+<pictures/graphs/sn3_states_1-eps-converted-to.pdf, id=1966, 877.23958pt x 403.
+5903pt>
+File: pictures/graphs/sn3_states_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/graphs/sn3_states_1-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/graphs/sn3_states_1-eps-converted-to.pdf  use
+d on input line 158.
+(pdftex.def)             Requested size: 385.9866pt x 177.58028pt.
+
+Overfull \vbox (6.55032pt too high) detected at line 158
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 158.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 158.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[92
+
+ <./pictures/graphs/sn3_states_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pictures/graphs/sn3_inputs_1.eps>
+(epstopdf)                    date: 2019-10-14 23:24:34
+(epstopdf)                    size: 73247 bytes
+(epstopdf)             Output file: <pictures/graphs/sn3_inputs_1-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-10-14 23:24:46
+(epstopdf)                    size: 12540 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn3_inputs
+_1-eps-converted-to.pdf pictures/graphs/sn3_inputs_1.eps>
+(epstopdf)             \includegraphics on input line 167.
+Package epstopdf Info: Output file is already uptodate.
+<pictures/graphs/sn3_inputs_1-eps-converted-to.pdf, id=1996, 721.98328pt x 419.
+37302pt>
+File: pictures/graphs/sn3_inputs_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/graphs/sn3_inputs_1-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/graphs/sn3_inputs_1-eps-converted-to.pdf  use
+d on input line 167.
+(pdftex.def)             Requested size: 303.23091pt x 176.13545pt.
+
+Overfull \vbox (5.1055pt too high) detected at line 167
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 167.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 167.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+[93
+
+ <./pictures/graphs/sn3_inputs_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <pictures/graphs/sn3_solver_time_1.eps>
+(epstopdf)                    date: 2019-10-14 23:25:38
+(epstopdf)                    size: 37949 bytes
+(epstopdf)             Output file: <pictures/graphs/sn3_solver_time_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2019-10-14 23:25:46
+(epstopdf)                    size: 12253 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn3_solver
+_time_1-eps-converted-to.pdf pictures/graphs/sn3_solver_time_1.eps>
+(epstopdf)             \includegraphics on input line 176.
+Package epstopdf Info: Output file is already uptodate.
+<pictures/graphs/sn3_solver_time_1-eps-converted-to.pdf, id=2019, 727.40355pt x
+ 202.00218pt>
+File: pictures/graphs/sn3_solver_time_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use pictures/graphs/sn3_solver_time_1-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/graphs/sn3_solver_time_1-eps-converted-to.pdf
+  used on input line 176.
+(pdftex.def)             Requested size: 305.5074pt x 84.84033pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 176.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 176.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [94
+
+ <./pictures/graphs/sn3_solver_time_1-eps-converted-to.pdf>]) (./Kapitel_6.tex
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 1.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 1.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [95
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [96
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+
+[97
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [98
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [99
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [100
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [101
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 56.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 56.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [102
+
+]
+<pictures/block_diagram_polar_switch_1.pdf, id=2108, 653.56169pt x 221.8689pt>
+File: pictures/block_diagram_polar_switch_1.pdf Graphic file (type pdf)
+<use pictures/block_diagram_polar_switch_1.pdf>
+Package pdftex.def Info: pictures/block_diagram_polar_switch_1.pdf  used on inp
+ut line 65.
+(pdftex.def)             Requested size: 424.81006pt x 144.21306pt.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 65.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 65.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [103
+
+ <./pictures/block_diagram_polar_switch_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/block_diagram_pol
+ar_switch_1.pdf): PDF inclusion: invalid other resource which is no dict (key '
+ProcSets', type <array>); ignored.
+>]
 Package epstopdf Info: Source file: <pictures/graphs/sn3_states.eps>
 (epstopdf)                    date: 2019-09-17 15:42:09
 (epstopdf)                    size: 268357 bytes
@@ -3298,28 +4086,28 @@ o.pdf>
 (epstopdf)                    size: 211120 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn3_states
 -eps-converted-to.pdf pictures/graphs/sn3_states.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn3_states-eps-converted-to.pdf, id=1566, 786.94pt x 402.50375
+<pictures/graphs/sn3_states-eps-converted-to.pdf, id=2139, 786.94pt x 402.50375
 pt>
 File: pictures/graphs/sn3_states-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/graphs/sn3_states-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn3_states-eps-converted-to.pdf  used 
-on input line 201.
+on input line 74.
 (pdftex.def)             Requested size: 346.25467pt x 177.10219pt.
 
-Overfull \vbox (4.02725pt too high) detected at line 201
+Overfull \vbox (6.07224pt too high) detected at line 74
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 201.
+Package pdftex.def Info: logos/tu.pdf  used on input line 74.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 201.
+Package pdftex.def Info: logos/flw.png  used on input line 74.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[54
+[104
 
  <./pictures/graphs/sn3_states-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn3_inputs.eps>
@@ -3331,28 +4119,28 @@ o.pdf>
 (epstopdf)                    size: 32199 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn3_inputs
 -eps-converted-to.pdf pictures/graphs/sn3_inputs.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn3_inputs-eps-converted-to.pdf, id=1593, 722.7pt x 420.57124p
+<pictures/graphs/sn3_inputs-eps-converted-to.pdf, id=2166, 722.7pt x 420.57124p
 t>
 File: pictures/graphs/sn3_inputs-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/graphs/sn3_inputs-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn3_inputs-eps-converted-to.pdf  used 
-on input line 210.
+on input line 83.
 (pdftex.def)             Requested size: 303.53192pt x 176.63872pt.
 
-Overfull \vbox (3.56378pt too high) detected at line 210
+Overfull \vbox (5.60876pt too high) detected at line 83
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 210.
+Package pdftex.def Info: logos/tu.pdf  used on input line 83.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 210.
+Package pdftex.def Info: logos/flw.png  used on input line 83.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
-[55
+[105
 
  <./pictures/graphs/sn3_inputs-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/graphs/sn3_solver_time.eps>
@@ -3364,58 +4152,214 @@ ted-to.pdf>
 (epstopdf)                    size: 14761 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/graphs/sn3_solver
 _time-eps-converted-to.pdf pictures/graphs/sn3_solver_time.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
-<pictures/graphs/sn3_solver_time-eps-converted-to.pdf, id=1626, 727.71875pt x 2
+<pictures/graphs/sn3_solver_time-eps-converted-to.pdf, id=2198, 727.71875pt x 2
 03.76125pt>
 File: pictures/graphs/sn3_solver_time-eps-converted-to.pdf Graphic file (type p
 df)
 <use pictures/graphs/sn3_solver_time-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/graphs/sn3_solver_time-eps-converted-to.pdf  
-used on input line 219.
+used on input line 92.
 (pdftex.def)             Requested size: 305.63979pt x 85.57913pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 219.
+Package pdftex.def Info: logos/tu.pdf  used on input line 92.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 219.
+Package pdftex.def Info: logos/flw.png  used on input line 92.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [56
+ [106
 
  <./pictures/graphs/sn3_solver_time-eps-converted-to.pdf>]
-<pictures/good_1.png, id=1643, 817.0525pt x 803.0pt>
+<pictures/good_1.png, id=2215, 817.0525pt x 803.0pt>
 File: pictures/good_1.png Graphic file (type png)
 <use pictures/good_1.png>
-Package pdftex.def Info: pictures/good_1.png  used on input line 227.
+Package pdftex.def Info: pictures/good_1.png  used on input line 100.
 (pdftex.def)             Requested size: 191.35854pt x 188.06789pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 227.
+Package pdftex.def Info: logos/tu.pdf  used on input line 100.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 227.
+Package pdftex.def Info: logos/flw.png  used on input line 100.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [57
+ [107
 
  <./pictures/good_1.png>])
+(./Kapitel_7.tex
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 1.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 1.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [108
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 15.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 15.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [109
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 15.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 15.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [110
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 15.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 15.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [111
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 15.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 15.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [112
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 15.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 15.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [113
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 31.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [114
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 31.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [115
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 31.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [116
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 31.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [117
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 31.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+
+[118
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 31.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [119
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 33.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 33.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [120
+
+])
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package pdftex.def Info: logos/tu.pdf  used on input line 132.
+(pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
+File: logos/flw.png Graphic file (type png)
+<use logos/flw.png>
+Package pdftex.def Info: logos/flw.png  used on input line 132.
+(pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
+ [121
+
+]
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/sc' in size <9> not availabl
 e
 (Font)              Font shape `OT1/FiraSans-OsF/regular/sc' tried instead on i
-nput line 135.
+nput line 137.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 9.0pt on input line 135.
+(Font)              scaled to size 9.0pt on input line 137.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package pdftex.def Info: logos/tu.pdf  used on input line 135.
+Package pdftex.def Info: logos/tu.pdf  used on input line 137.
 (pdftex.def)             Requested size: 130.2732pt x 22.76271pt.
 File: logos/flw.png Graphic file (type png)
 <use logos/flw.png>
-Package pdftex.def Info: logos/flw.png  used on input line 135.
+Package pdftex.def Info: logos/flw.png  used on input line 137.
 (pdftex.def)             Requested size: 88.64963pt x 15.99547pt.
- [58
+ [122
 
 ]
 \tf@nav=\write6
@@ -3427,24 +4371,23 @@ Package pdftex.def Info: logos/flw.png  used on input line 135.
 \tf@snm=\write8
 \openout8 = `ldv.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
-
-(./ldv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+ (./ldv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 139.
 Package logreq Info: Writing requests to 'ldv.run.xml'.
 \openout1 = `ldv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59149 strings out of 492616
- 1296841 string characters out of 6129481
- 1768281 words of memory out of 5000000
- 62022 multiletter control sequences out of 15000+600000
- 623826 words of font info for 79 fonts, out of 8000000 for 9000
+ 59930 strings out of 492616
+ 1310656 string characters out of 6129481
+ 1782794 words of memory out of 5000000
+ 62662 multiletter control sequences out of 15000+600000
+ 624134 words of font info for 80 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 64i,26n,98p,800b,1853s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,26n,98p,770b,2143s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fira/fir_7a4ina.enc}{/usr
 /local/texlive/2019/texmf-dist/fonts/enc/dvips/fira/fir_iea3z7.enc}{/usr/local/
 texlive/2019/texmf-dist/fonts/enc/dvips/fira/fir_lortfe.enc}</usr/local/texlive
@@ -3452,26 +4395,27 @@ texlive/2019/texmf-dist/fonts/enc/dvips/fira/fir_lortfe.enc}</usr/local/texlive
 2019/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/fira/FiraSans-Light.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2019/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2019/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ldv.pdf (58 pages, 10272434 bytes).
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ldv.pdf (122 pages, 10586994 bytes).
 PDF statistics:
- 1791 PDF objects out of 2073 (max. 8388607)
- 1242 compressed objects within 13 object streams
- 125 named destinations out of 1000 (max. 500000)
- 897 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2524 PDF objects out of 2984 (max. 8388607)
+ 1864 compressed objects within 19 object streams
+ 256 named destinations out of 1000 (max. 500000)
+ 956 words of extra memory for PDF output out of 10000 (max. 10000000)
 
