@@ -1,9 +1,4 @@
-\section{NMPC Planner}
-
-	\begin{frame}
-		\centering
-		\includegraphics[scale=0.7]{pictures/mpc_planner_group/mpc_planner_8.pdf}
-	\end{frame}
+\section{State Error Objective}
 
 	\begin{frame}
 		\frametitle{Robot Models Used}
@@ -72,9 +67,9 @@
 				\onslide<2->{
 				\begin{block}{Polar Co-ordinate Model}
 					\begin{align*}
-						\rho& = \sqrt{x^2+y^2} \\
-						\phi& = \arctan2(y,x) \\
-						\alpha&= \phi - \theta
+						\rho& = \sqrt{(x-x_g)^2+(y-y_g)^2} \\[0.4cm]
+						\phi& = \arctan2\big((y-y_g),(x-x_g)\big) \\[0.4cm]
+						\alpha&= \theta - \phi
 					\end{align*}
 				\end{block}
 				}
@@ -91,7 +86,7 @@
 		\begin{block}{NMPC Optimization Problem}
 			\begin{align*}
 				&\underset{\mathbf{X}^*,\mathbf{U}^*}{\text{min    }}
-				\tikzmark{a9}J_{N_p}(\mathbf{x}_k) = \tikzmark{a10}V_f(\mathbf{x}_{k+N_p}) + \sum_{j=0}^{N_p-1}\tikzmark{a11}\ell (\mathbf{x}_{k + j},\mathbf{u}_{k + j}), \\
+				\tikzmark{a9}J_{N_p}(\mathbf{x}_k) = \sum_{j=0}^{N_p}\tikzmark{a11}\ell (\mathbf{x}_{k + j},\mathbf{u}_{k + j}), \\
 				&\quad \text{subject to:} \notag  \\
 				&\quad\quad \tikzmark{a12}\mathbf{x}_{k+j+1} = \mathcal{F}(\mathbf{x}_{k+j},\mathbf{u}_{k+j}), & \forall\text{ } 0\leq j\leq N_p-1  \\ 
 				&\quad\quad \tikzmark{a13}\mathbf{x}_{k+j} \in \mathbb{X}, & \forall \text{ }0\leq j\leq N_p \\
@@ -102,7 +97,6 @@
 	
 		\begin{tikzpicture}[overlay, remember picture]
 			\coordinate (A9) at ($({pic cs:a9})+(1ex, 1ex)$);
-			\coordinate (A10) at ($({pic cs:a10})+(1ex, 1ex)$);
 			\coordinate (A11) at ($({pic cs:a11})+(1ex, 1ex)$);
 			\coordinate (A12) at ($({pic cs:a12})+(0ex, 0.5ex)$);
 			\coordinate (A13) at ($({pic cs:a13})+(0ex, 0.5ex)$);
@@ -114,18 +108,13 @@
 			\node[cyan, above of= n9, node distance = 2em] (t9) {\small function};
 			\draw [<-, cyan] (n9.north) to [below] (t9.south);
 			\pause
-			\node [fit=(A10), baseline] (n10) {};
-			\node[cyan, above of= n10, node distance = 3em] (t10_1) {\small terminal};
-			\node[cyan, above of= n10, node distance = 2em] (t10) {\small penalty};
-			\draw [<-, cyan] (n10.north) to [below] (t10.south);
-			\pause
 			\node [fit=(A11), baseline] (n11) {};
 			\node[cyan, above of= n11, node distance = 3em] (t11_1) {\small regulatory};
 			\node[cyan, above of= n11, node distance = 2em] (t11) {\small term};
 			\draw [<-, cyan] (n11.north) to [below] (t11.south);
 			\pause
 			\node [fit=(A12), baseline] (n12) {};
-			\node[cyan, left of= n12, node distance = 4em] at (2,3) (t12) {\small model};
+			\node[cyan, left of= n12, node distance = 4em] at (2.8,3) (t12) {\small model};
 			\node[cyan, below of= t12, node distance = 1em] (t12_1) {\small constraints};
 			\draw [<-, cyan] (n12.west) to [right] (t12.east);
 			\pause
@@ -135,7 +124,7 @@
 			\draw [<-, cyan] (n13.west) to [right] (t13.east);
 			\pause
 			\node [fit=(A14), baseline] (n14) {};
-			\node[cyan, left of= n14, node distance = 4em] at (2,1) (t14) {\small input};
+			\node[cyan, below of= t13, node distance = 3em] (t14) {\small input};
 			\node[cyan, below of= t14, node distance = 1em] (t14_1) {\small boundries};
 			\draw [<-, cyan] (n14.west) to [right] (t14.east);
 			\pause
@@ -153,15 +142,15 @@
 				\begin{aligned}
 					\ell (\mathbf{x}_{k + j},\mathbf{u}_{k + j}) = \enspace
 					\tikzmark{a1}
-					(\mathbf{x}_{k + j} - \mathbf{x}_{ref})^T \enspace Q_1 \enspace (\mathbf{x}_{k + j} - \mathbf{x}_{ref})
+					(\mathbf{x}_{k + j} - \mathbf{x}_{ref})^T \enspace \mathbf{Q_1} \enspace (\mathbf{x}_{k + j} - \mathbf{x}_{ref})
 					\tikzmark{a2}
 					\enspace + \enspace
 					\tikzmark{a3}
-					\Delta\mathbf{u}_{k + j}^T \enspace R \enspace \Delta\mathbf{u}_{k + j}
+					\Delta\mathbf{u}_{k + j}^T \enspace \mathbf{R} \enspace \Delta\mathbf{u}_{k + j}
 					\tikzmark{a4}
 					\enspace \tikzmark{a7}-\tikzmark{a8} \enspace
 					\tikzmark{a5} 
-					\sum_{i=0}^{I} \mathbf{d}_{i,k + j}^T \enspace Q_2 \enspace \mathbf{d}_{i,k + j}
+					\sum_{i=0}^{I} \mathbf{d}_{i,k + j}^T \enspace \mathbf{Q_2} \enspace \mathbf{d}_{i,k + j}
 					\tikzmark{a6}
 				\end{aligned}
 			\]
@@ -211,24 +200,18 @@
 %		}
 	\end{frame}
 	
-	\begin{frame}
-		\frametitle{Potential Collision Zone}
-		\centering
-		\includegraphics[scale=0.6]{pictures/robots_pot_coll.pdf}
-	\end{frame}
-	
-	\begin{frame}
-		\frametitle{Cartesian Coordinate Model Block Diagram}
-		\begin{figure}[hbtp]
-			\centering
-			\includegraphics[scale=0.7]{pictures/block_diagram_cart.pdf}
-			\caption{NMPC Control Loop (Cartesian coordinate Model)}
-		\end{figure}
-	\end{frame}
+%	\begin{frame}
+%		\frametitle{Cartesian Coordinate Model Block Diagram}
+%		\begin{figure}[hbtp]
+%			\centering
+%			\includegraphics[scale=0.7]{pictures/block_diagram_cart.pdf}
+%			\caption{NMPC Control Loop (Cartesian coordinate Model)}
+%		\end{figure}
+%	\end{frame}
 
 	\begin{frame}
-		\frametitle{Polar Coordinate Model}
-		\begin{block}{Regulatory Term}
+		\frametitle{NMPC General Formulation}
+		\begin{block}{Regulatory Terms (e.g., Polar coordinate)}
 			\parbox[c][4\baselineskip][t]{\textwidth}{
 			\begin{align*}
 				\ell_p (\vartheta_{k + j},\mathbf{u}_{k + j}) &= 
@@ -244,29 +227,35 @@
 			\end{align*}
 			}
 		\end{block}
-		Minimization of:
+		Error state objective is the minimization of: \\[0.5cm]
 		\begin{itemize}
-			\item Euclidean distance: $\ell_{p,1}(\cdot,\cdot) = \sqrt{(x_{k+j} - x_{ref})^2+(y_{k+j} - y_{ref})^2}$
-			\item Heading towards goal: $\ell_{p,2}(\cdot,\cdot) = \Big(\theta_{k+j} - \arctan2\big((y_{k+j} - y_{ref}),(x_{k+j} - x_{ref})\big)\Big)^2$
+			\item Euclidean distance: $\ell_{p,1}(\cdot,\cdot) = \sqrt{(x_{k+j} - x_{ref})^2+(y_{k+j} - y_{ref})^2}$ \\ [0.2cm]
+			\item Heading towards goal: $\ell_{p,2}(\cdot,\cdot) = \Big(\theta_{k+j} - \arctan2\big((y_{k+j} - y_{ref}),(x_{k+j} - x_{ref})\big)\Big)^2$ \\ [0.2cm]
 			\item Reference orientation: $\ell_{p,3}(\cdot,\cdot) = (\theta_{k+j} - \theta_{ref})^2$
 		\end{itemize}
 	\end{frame}
 
-	\begin{frame}
-		\frametitle{Polar Coordinate Model Block Diagram}
-		\begin{figure}[hbtp]
-			\centering
-			\includegraphics[scale=0.64]{pictures/block_diagram_polar.pdf}
-			\caption{NMPC Control Loop (Polar coordinate Model)}
-		\end{figure}
-	\end{frame}
+%	\begin{frame}
+%		\frametitle{Polar Coordinate Model Block Diagram}
+%		\begin{figure}[hbtp]
+%			\centering
+%			\includegraphics[scale=0.64]{pictures/block_diagram_polar.pdf}
+%			\caption{NMPC Control Loop (Polar coordinate Model)}
+%		\end{figure}
+%	\end{frame}
+
+%	\begin{frame}
+%		\frametitle{Kino-dynamic Model Block Diagram}
+%		\begin{figure}[hbtp]
+%			\centering
+%			\includegraphics[scale=0.64]{pictures/block_diagram_kino.pdf}
+%			\caption{NMPC Control Loop (Kino-dynamic Model)}
+%		\end{figure}
+%	\end{frame}
 
 	\begin{frame}
-		\frametitle{Kino-dynamic Model Block Diagram}
-		\begin{figure}[hbtp]
-			\centering
-			\includegraphics[scale=0.64]{pictures/block_diagram_kino.pdf}
-			\caption{NMPC Control Loop (Kino-dynamic Model)}
-		\end{figure}
+		\frametitle{Potential Collision Zone}
+		\centering
+		\includegraphics[scale=0.6]{pictures/robots_pot_coll.pdf}
 	\end{frame}
 

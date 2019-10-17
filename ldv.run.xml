@@ -78,8 +78,5 @@
     <requires type="dynamic">
       <file>ldv.bcf</file>
     </requires>
-    <requires type="editable">
-      <file>reference.bib</file>
-    </requires>
   </external>
 </requests>

@@ -1,10 +1,9 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {german}{}
-\beamer@sectionintoc {2}{Introduction and Motivation}{8}{0}{1}
-\beamer@sectionintoc {3}{Obstacles Formulation}{31}{0}{2}
-\beamer@sectionintoc {4}{NMPC Planner}{50}{0}{3}
-\beamer@sectionintoc {5}{Experiments}{75}{0}{4}
-\beamer@sectionintoc {6}{Approach Upgrade}{95}{0}{5}
-\beamer@sectionintoc {7}{Conclusion and Future Work}{108}{0}{6}
-\beamer@sectionintoc {8}{Questions ?!}{120}{0}{7}
-\beamer@sectionintoc {9}{Reference}{121}{0}{8}
+\beamer@sectionintoc {1}{Introduction and Motivation}{3}{0}{1}
+\beamer@sectionintoc {2}{Obstacles Objective}{33}{0}{2}
+\beamer@sectionintoc {3}{State Error Objective}{52}{0}{3}
+\beamer@sectionintoc {4}{Experiments}{72}{0}{4}
+\beamer@sectionintoc {5}{Approach Upgrade}{77}{0}{5}
+\beamer@sectionintoc {6}{Conclusion and Future Work}{104}{0}{6}
+\beamer@sectionintoc {7}{Questions}{116}{0}{7}

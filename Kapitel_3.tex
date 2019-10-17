@@ -1,4 +1,4 @@
-\section{Obstacles Formulation}
+\section{Obstacles Objective}
 
 	\begin{frame}
 		\frametitle{Robot Environment}
@@ -11,7 +11,7 @@
 			\end{column}
 			\begin{column}{0.7\textwidth}
 				\centering
-				\animategraphics[loop,controls,width=0.7\linewidth]{2}{pictures/robot_env_group/robot_env-}{0}{8}
+				\animategraphics[loop,controls,width=0.79\textwidth]{2}{pictures/robot_env_group/robot_env-}{0}{8}
 				%\includegraphics[scale=0.7]{pictures/robot_env.pdf}
 			\end{column}
 		\end{columns}
@@ -23,7 +23,7 @@
 			\begin{column}{0.42\textwidth}
 				\centering
 				\onslide<1->{\includegraphics[scale=0.45]{pictures/laser_ranges.pdf}}
-				\onslide<2->{
+				\onslide<3->{
 				\begin{block}{Laser scanner message}
 					\[\overrightarrow{data}(k) = \left\{
 					\begin{array}{lr}
@@ -41,7 +41,7 @@
 			\end{column}
 			\begin{column}{0.52\textwidth}
 				\centering
-				 \onslide<3->{\includegraphics[scale=0.51]{pictures/robot_laser.pdf}}
+				 \onslide<2->{\includegraphics[scale=0.51]{pictures/robot_laser.pdf}}
 			\end{column}
 		\end{columns}
 	\end{frame}
@@ -57,7 +57,7 @@
 						\begin{pmatrix}
 							\cos\theta_z & -\sin\theta_z & 0 & x_{trns} \\
 							\sin\theta_z &  \cos\theta_z & 0 & y_{trns}  \\
-							0		   & 0 			 & 1 & y_{trns}  \\
+							0		   & 0 			 & 1 & z_{trns}  \\
 							0		   & 0			 & 0 & 1 \\
 						\end{pmatrix}
 					\]
@@ -86,59 +86,20 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Homogeneous Transformation}
-		\begin{columns}[T]
-			\begin{column}{0.49\textwidth}
-				\begin{itemize}
-					\item $
-					T_{footprint\_map} \enspace \text{ }=
-					\begin{pmatrix}
-						\cos\theta_r & -\sin\theta_r & 0 & x_{r} \\
-						\sin\theta_r & \cos\theta_r & 0 & y_{r} \\
-						0 & 0 & 1 & 0 \\
-						0 & 0 & 0 & 1 \\
-					\end{pmatrix}
-					$
-					\item $
-					T_{robot\_footprint} \enspace= 
-					\begin{pmatrix}
-						1 & 0 & 0 & 0 \\
-						0 & 1 & 0 & 0 \\
-						0 & 0 & 1 & -0.125 \\
-						0 & 0 & 0 & 1 \\
-					\end{pmatrix}
-					$
-					\item $
-					T_{laser\_robot} \qquad= 
-					\begin{pmatrix}
-						1 & 0 & 0 & 0 \\
-						0 & 1 & 0 & -0.245 \\
-						0 & 0 & 1 & -0.051 \\
-						0 & 0 & 0 & 1 \\
-					\end{pmatrix}
-					$
-				\end{itemize}
-			\end{column}
-			\begin{column}{0.49\textwidth}
-				\centering
-				\includegraphics[scale=0.5]{pictures/robotnik.pdf}
-			\end{column}
-		\end{columns}
-	\end{frame}
-
-	\begin{frame}
 		\frametitle{Saved Obstacles Frame}
 		\centering
 		\includegraphics[scale=0.46]{pictures/intial_map.eps}
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Cluster + Fitting Algorithm}
 		\onslide<1->{
-		\begin{block}{Density-Based Spatial Clustering of Applications with Noise (DBSCAN)}
+		\begin{block}{Density-Based Spatial Clustering of Applications with Noise (DBSCAN) 
+				\footnote[1]{Ester, M., Kriegel, H.-P., Sander, et al.
+					\say{\textcolor{tudark}{A density-based algorithm for discovering clusters in large spatial databases with noise}}.}}
 			Statistical search algorithm
 		\end{block}
-		\begin{block}{Least Square Fitting Ellipse (LSFE)}
+		\begin{block}{Least Square Fitting Ellipse (LSFE) 
+				\footnote[2]{{Fitzgibbon, A. W., Pilu, M., and Fisher, R. B. \say{\textcolor{tudark}{Direct least squares fitting of ellipses}}.}}}
 			Numerical fitting algorithm for each set of data.
 		\end{block}
 		}
@@ -148,7 +109,7 @@
 				\begin{itemize}
 					\item Edged data points
 				\end{itemize}
-				\includegraphics[scale=0.65]{pictures/lsellipse1.pdf}
+				\includegraphics[scale=0.55]{pictures/lsellipse1.pdf}
 			\end{column}
 			}
 			\onslide<3->{
@@ -156,7 +117,7 @@
 				\begin{itemize}
 					\item Concave data points
 				\end{itemize}
-				\includegraphics[scale=0.65]{pictures/lsellipse2.pdf}
+				\includegraphics[scale=0.55]{pictures/lsellipse2.pdf}
 			\end{column}
 			}
 			\onslide<4->{
@@ -164,7 +125,7 @@
 				\begin{itemize}
 					\item Lined-curved data points
 				\end{itemize}
-				\includegraphics[scale=0.65]{pictures/lsellipse3.pdf}
+				\includegraphics[scale=0.55]{pictures/lsellipse3.pdf}
 			\end{column}
 			}
 		\end{columns}
@@ -177,11 +138,12 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Dynamic Obstacles Tracking}
+		\frametitle{Dynamic Obstacles Tracking 	\footnote[1]{{Redmon, J. and Farhadi, A. \say{\textcolor{tudark}{YOLO9000: better, faster, stronger}}.}}}
 		\begin{columns}[T]
 			\begin{column}{0.4\textwidth}
 				\onslide<2->{
 				\begin{block}{Dyn. obstacles estimation}
+					\parbox[c][6.5\baselineskip][t]{\textwidth}{
 					\begin{align*}
 						&\hat{\mathbf{x}}_{i,k} = 
 						\begin{pmatrix}
@@ -189,7 +151,7 @@
 							\hat{y}_{i,k} \\
 							\hat{\theta}_{i,k}
 						\end{pmatrix},
-						\qquad \qquad \hat{\mathbf{x}}_{i,k} =
+						\qquad \qquad \hat{\mathbf{v}}_{i,k} =
 						\begin{pmatrix}
 							\hat{v}_{i,k} \\
 							\hat{\omega}_{i,k}
@@ -198,6 +160,7 @@
 						&\hat{\mathbf{X}}_{i,k} := \{ \hat{\mathbf{x}}_{i,k}, \hat{\mathbf{x}}_{i,k+1}, \cdots, \hat{\mathbf{x}}_{i,k+N_p} \} \\
 						&\bar{\mathbf{X}}_{i,k} := \{ \bar{\mathbf{x}}_{i,k}, \bar{\mathbf{x}}_{i,k+1}, \cdots, \bar{\mathbf{x}}_{i,k+N_p}\}
 					\end{align*}
+					}
 				\end{block}
 				}
 				\onslide<3->{
@@ -220,7 +183,14 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{Obstacles Detection Block Diagram}
+		\frametitle{Dynamic Obstacle Estimation}
+		\centering
+		\movie[width=0.83\textwidth, height=0.47\textwidth]
+		{\includegraphics[width=0.83\textwidth]{pictures/kalman_filter_2.png}}{videos/klmn_best.mov}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Obstacles Detection}
 		\centering
 		\includegraphics[scale=0.9]{pictures/block_diagram_obst_1.pdf}
 	\end{frame}
